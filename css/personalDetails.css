@@ -55,3 +55,37 @@ button {
 ::placeholder {
   color: blue;
 }
+
+/* Added transition effect to buttons. */
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+#back:hover span{
+  padding-left: 25px;
+}
+#proceed:hover span{
+  padding-right: 25px;
+}
+#back span:before {
+  content: '\00ab';
+  opacity: 0;
+  top: 0;
+  position: absolute;
+}
+#proceed span:after {
+  content: '\00bb';
+  opacity: 0;
+  top: 0;
+  position: absolute;
+}
+#back:hover span:before {
+  opacity: 1;
+  left:0;
+}
+#proceed:hover span:after {
+  opacity: 1;
+  right:0;
+}
