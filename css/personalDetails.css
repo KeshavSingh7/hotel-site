@@ -7,3 +7,51 @@ body {
   background-size: cover;
   align-content:;
 }
+
+/*giving dimension to the form*/
+.container {
+  margin: auto;
+  width: 60%;
+  margin-top: 35px;
+  background-color: rgba(0, 0, 0, .7); //tinted backdrop for form.
+  border: 1px white solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: yellow;
+  text-decoration: underline;
+}
+
+input {
+  width: 100%;
+}
+
+input:focus{
+  outline: 2px red solid;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+button {
+  width: 50%;
+}
+
+.col: {
+  text-align: right;
+}
+
+.col:nth-child(3) {
+  text-align: right;
+}
+
+/*changed placeholder color.*/
+::placeholder {
+  color: blue;
+}
