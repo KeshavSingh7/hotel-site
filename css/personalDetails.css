@@ -1,0 +1,9 @@
+/*aligning the background image properly*/
+body {
+  background: url('../img/room.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  align-content:;
+}
