@@ -5,7 +5,6 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  align-content:;
 }
 
 /*giving dimension to the form*/
@@ -13,50 +12,45 @@ body {
   margin: auto;
   width: 60%;
   margin-top: 35px;
-  background-color: rgba(0, 0, 0, .7); //tinted backdrop for form.
+  background-color: rgba(0, 0, 0, .7);
   border: 1px white solid;
-  border-radius: 10px;
+  border-radius : 10px;
   padding: 20px;
 }
 
 label {
   font-weight: bold;
   font-size: 18px;
-  color: yellow;
-  text-decoration: underline;
+  color: orange;
 }
 
 input {
   width: 100%;
 }
 
-input:focus{
-  outline: 2px red solid;
+input:focus {
+  outline: none;
 }
 
 h2 {
   text-align: center;
-  color: red;
+  color: orangered;
+  font-family: sans-serif;
 }
 
 button {
-  width: 50%;
+  width: auto;
 }
 
-.col: {
-  text-align: right;
+.col {
+  text-align: left;
 }
 
 .col:nth-child(3) {
   text-align: right;
 }
 
-/*changed placeholder color.*/
-::placeholder {
-  color: blue;
-}
-
-/* Added transition effect to buttons. */
+/* Added transition effect to buttons */
 .btn span {
   cursor: pointer;
   display: inline-block;
@@ -88,4 +82,56 @@ button {
 #proceed:hover span:after {
   opacity: 1;
   right:0;
+}
+
+/* error detection */
+.fa.fa-check-circle {
+  font-size: 20px;
+  color: green;
+  visibility: hidden;
+}
+
+.fa.fa-times-circle {
+  font-size: 20px;
+  color: red;
+  visibility: hidden;
+}
+
+.col i {
+  position: absolute;
+  top: 10px;
+  right: 25px;
+}
+
+.col small {
+  color: red;
+  position: absolute;
+  bottom: -20px;
+  left: 15px;
+  visibility: hidden;
+}
+
+.col.success input {
+  transition-delay: 0.2s;
+  border: 2px green solid;
+}
+
+.col.error input {
+  transition-delay: 0.2s;
+  border: 2px red solid;
+}
+
+.col.success .fa.fa-check-circle {
+  transition-delay: 0.2s;
+  visibility: visible;
+}
+
+.col.error .fa.fa-times-circle {
+  transition-delay: 0.2s;
+  visibility: visible;
+}
+
+.col.error small {
+  transition-delay: 0.2s;
+  visibility: visible;
 }
