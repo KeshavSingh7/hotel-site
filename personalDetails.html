@@ -8,12 +8,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css\personalDetails.css">
+  <script type="text/javascript" src="js\personaldetails.js"></script>
   <link rel="stylesheet" type="text/css" href="css\personalDetails.css" />
   <script type="text/javascript" src="js\personalDetails.js"></script>
 </head>
 <body>
   <div class="container">
-    <form class="" action="C:\Users\Keshav\Desktop\1.html" method="post" target="_blank">
+    <form action="#" id="form" method="post">
     <div class="row">
       <div class="col" id="header">
         <h2> Personal Details </h2>
@@ -22,64 +25,90 @@
     <!-- Name -->
     <div class="row">
       <div class="col">
-        <label for="">Name</label>
+        <label for="fname">Name</label>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <input type="text" id="fname" class="form-control" placeholder="First">
+          <input type="text" id="fname" class="form-control" onkeyup="validateFname()" placeholder="First" maxlength="10">
+          <i class="fa fa-check-circle"></i>
+          <i class="fa fa-times-circle"></i>
+          <small></small>
       </div>
       <div class="col">
-        <input type="text" id="lname" class="form-control" placeholder="Last">
+        <input type="text" id="lname" class="form-control" onkeyup="validateLname()" placeholder="Last">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
     </div>
     <br>
     <!-- Address -->
     <div class="row">
       <div class="col">
-        <label for="address">Address</label>
-        <label for="">Address</label>
+        <label>Address</label>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <input type="text" id="address" name="add1" class="form-control" placeholder="House No., Building Name, Road Name, Area">
-      </div>
-    </div>
-    <br>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="address" name= "add2" class="form-control" placeholder="City">
-      </div>
-      <div class="col">
-        <input type="text" id="address" name= "add3" class="form-control" placeholder="State">
+        <input type="text" id="address" class="form-control" onkeyup="validateAddress()" placeholder="House No., Building Name, Road Name, Area">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
     </div>
     <br>
     <div class="row">
       <div class="col">
-        <input type="text" id="address" name= "add4" class="form-control" placeholder="Pincode" >
+        <input type="text" id="city" class="form-control" onkeyup="validateCity()" placeholder="City">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
       <div class="col">
-        <input type="text" id="address" name= "add5" class="form-control" placeholder="Country">
+        <input type="text" id="state" class="form-control" onkeyup="validateState()" placeholder="State">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col">
+        <input type="text" id="pincode" class="form-control" onkeyup="validatePincode()" placeholder="Pincode" >
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
+      </div>
+      <div class="col">
+        <input type="text" id="Country" class="form-control" onkeyup="validateCountry()" placeholder="Country">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
     </div>
     <br>
     <!-- Email & Contact -->
     <div class="row">
       <div class="col">
-        <label for="em">Email</label>
+        <label>Email</label>
       </div>
       <div class="col">
-        <label for="contact">Contact</label>
+        <label>Contact</label>
       </div>
     </div>
     <div class="row">
       <div class="col">
-        <input type="email" id="em" class="form-control" placeholder="abc@xyz.com">
+        <input type="text" id="mail" class="form-control" onkeyup="validateEmail()" placeholder="abc@xyz.com">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
       <div class="col">
-        <input type="text" id="contact" class="form-control" placeholder="Contact">
+        <input type="text" id="contact" class="form-control" onkeyup="validateContact()" placeholder="Contact">
+        <i class="fa fa-check-circle"></i>
+        <i class="fa fa-times-circle"></i>
+        <small></small>
       </div>
     </div>
     <br>
@@ -87,12 +116,12 @@
     <!-- Navigation link -->
     <div class="row">
       <div class="col">
-        <button type="submit" id="back" name="back" class="btn btn-danger"><span>Back</span></button>
+        <button type="submit" id="back" class="btn btn-warning"><span>Back</span></button>
       </div>
       <div class="col">
       </div>
       <div class="col">
-        <button type="submit" id="proceed" name="proceed" class="btn btn-success"><span>Proceed</span></button>
+        <button type="submit" id="proceed" class="btn btn-success"><span>Proceed</span></button>
       </div>
     </div>
     </form>
