@@ -139,12 +139,12 @@ button {
 
 .col.success input {
   transition-delay: 0.1s;
-  border: 3px green solid;
+  border: 2px green solid;
 }
 
 .col.error input {
   transition-delay: 0.1s;
-  border: 3px red solid;
+  border: 2px red solid;
 }
 
 .col.success .fa.fa-check-circle {
