@@ -16,12 +16,13 @@
 </head>
 <body>
   <div class="container">
-    <form action="#" id="form" method="post">
+    <form action="#" id="form" onsubmit="return validate()" method="post">
     <div class="row">
       <div class="col" id="header">
         <h2> Personal Details </h2>
       </div>
     </div>
+    <br>
     <!-- Name -->
     <div class="row">
       <div class="col">
@@ -58,6 +59,7 @@
       </div>
     </div>
     <br>
+    <br>
     <div class="row">
       <div class="col">
         <input type="text" id="city" class="form-control" onkeyup="validateCity()" placeholder="City">
@@ -73,6 +75,7 @@
       </div>
     </div>
     <br>
+    <br>
     <div class="row">
       <div class="col">
         <input type="text" id="pincode" class="form-control" onkeyup="validatePincode()" placeholder="Pincode" >
@@ -81,12 +84,13 @@
         <small></small>
       </div>
       <div class="col">
-        <input type="text" id="Country" class="form-control" onkeyup="validateCountry()" placeholder="Country">
+        <input type="text" id="country" class="form-control" onkeyup="validateCountry()" placeholder="Country">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
       </div>
     </div>
+    <br>
     <br>
     <!-- Email & Contact -->
     <div class="row">
@@ -113,7 +117,7 @@
     </div>
     <br>
     <br>
-    <!-- Navigation link -->
+    <!-- Navigation buttons -->
     <div class="row">
       <div class="col">
         <button type="submit" id="back" class="btn btn-warning"><span>Back</span></button>
