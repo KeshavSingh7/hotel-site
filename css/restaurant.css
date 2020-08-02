@@ -1,0 +1,75 @@
+#backdrop {
+  background: url('../img/restaurant1.jpg');
+  background-position: center center;
+  background-size: cover;
+  height:600px;
+  text-align: center;
+  padding-top: 450px;
+}
+#backdrop .container {
+  height: 75px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+#backdrop .col{
+  padding-top: 18px;
+  text-align: center;
+}
+
+.col{
+  text-align: center;
+}
+
+.col a:link, .col a:visited {
+  color: rgba(255,255,225);
+}
+
+hr {
+  width: 25%;
+  border-top: 2px solid red;
+}
+
+.fa.fa-cutlery {
+  color: white;
+  background-color: orangered;
+  padding: 25px;
+  border-radius: 50px;
+  font-size: 50px;
+}
+
+a:hover .fa.fa-cutlery{
+  animation: shake 1s;
+  background-color: black;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(1px, 1px) rotate(1deg); }
+  20% { transform: translate(1px, 1px) rotate(-2deg); }
+  30% { transform: translate(1px, 1px) rotate(2deg); }
+  40% { transform: translate(1px, 1px) rotate(-2deg); }
+  50% { transform: translate(1px, 1px) rotate(2deg); }
+  60% { transform: translate(1px, 1px) rotate(-2deg); }
+  70% { transform: translate(1px, 1px) rotate(2deg); }
+  80% { transform: translate(1px, 1px) rotate(-2deg); }
+  90% { transform: translate(1px, 1px) rotate(2deg); }
+  100% { transform: translate(1px, 1px) rotate(-2deg); }
+}
+
+#breakfast, #lunch, #dinner {
+  color : black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+a:hover #breakfast, a:hover #lunch, a:hover #dinner {
+  color:orangered;
+}
+
+.carousel-item img {
+  height:500px;
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

@@ -1,0 +1,33 @@
+$(document).ready(function() {
+    $("#bi").click(function() {
+        $("#backdrop").css({"background": "url('img/restaurant1.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
+        $("#bi").css({"text-decoration":"overline orangered"});
+        $("#sad").css({"text-decoration":"none"});
+        $("#b").css({"text-decoration":"none"});
+    });
+
+    $("#sad").click(function() {
+        $("#backdrop").css({"background": "url('img/restaurant2.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
+        $("#sad").css({"text-decoration":"overline orangered"});
+        $("#bi").css({"text-decoration":"none"});
+        $("#b").css({"text-decoration":"none"});  
+    });
+
+    $("#b").click(function() {
+        $("#backdrop").css({"background": "url('img/restaurant3.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
+        $("#b").css({"text-decoration":"overline orangered"});
+        $("#bi").css({"text-decoration":"none"});
+        $("#sad").css({"text-decoration":"none"});
+    });
+
+    $("#bi").hover(function() {
+        $(this).css({"text-decoration":"overline orangered"})}, function(){$(this).css({"text-decoration":"none"});
+    });
+    $("#sad").hover(function() {
+        $(this).css({"text-decoration":"overline orangered"})}, function(){$(this).css({"text-decoration":"none"});
+    });
+
+    $("#b").hover(function() {
+        $(this).css({"text-decoration":"overline orangered"})}, function(){$(this).css({"text-decoration":"none"});
+    });
+});
