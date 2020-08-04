@@ -30,4 +30,42 @@ $(document).ready(function() {
     $("#b").hover(function() {
         $(this).css({"text-decoration":"overline orangered"})}, function(){$(this).css({"text-decoration":"none"});
     });
+
+
+    $("#counter1").each(function() {
+        $("#counter1").prop('Counter', 0).animate({
+            Counter: $("#counter1").text()
+        }, {
+            duration : 4000,
+            easing: 'swing', 
+            step : function(now) {
+                $("#counter1").text(Math.ceil(now));
+            }
+        });
+    });
+
+    $("#counter2").each(function() {
+        $("#counter2").prop('Counter', 0).animate({
+            Counter: $("#counter2").text()
+        }, {
+            duration : 4000,
+            easing: 'swing', 
+            step : function(now) {
+                $("#counter2").text(Math.ceil(now));
+            }
+        });
+    });
+
+    $("#counter3").each(function() {
+        $("#counter3").prop('Counter', 0).animate({
+            Counter: $("#counter3").text()
+        }, {
+            duration : 4000,
+            easing: 'swing', 
+            step : function(now) {
+                $("#counter3").text(Math.ceil(now));
+            }
+        });
+    });
 });
+
