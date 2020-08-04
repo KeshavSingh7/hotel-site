@@ -8,11 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src='https://kit.fontawesome.com/a076d05399.js'></script>
   <link rel="stylesheet" type="text/css" href="css\restaurant.css" />
   <script type="text/javascript" src="js\restaurant.js"></script>
 </head>
 <body>
+
+<!-- fake carousel -->
 <div id="backdrop">
   <div class="container">
     <div class="row">
@@ -31,55 +33,62 @@
 
 <br><br>
 
+<!-- menu -->
 <div class="container">
   <div class="row">
     <div class="col">
       <h1>Meals</h1>
       <hr>
-      <br>
+      <br><br>
     </div>
   </div>
   <div class="row">
     <div class="col">
-      <a href="#"><i class="fa fa-cutlery"></i>
+      <a href="#"><i class="fas fa-utensils"></i>
       <br><br><p id="breakfast">Breakfast</p></a>
     </div>
     <div class="col">
-      <a href="#"><i class="fa fa-cutlery"></i>
+      <a href="#"><i class="fas fa-utensils"></i>
       <br><br><p id="lunch">Lunch</p></a>
     </div>
     <div class="col">
-      <a href="#"><i class="fa fa-cutlery"></i>
+      <a href="#"><i class="fas fa-utensils"></i>
       <br><br><p id="dinner">Dinner</p></a>
     </div>
   </div>
-  <br>
+  <br><br>
   <div class="row">
     <div class="col">
       <table class="table table-dark table-striped table-hover">
         <tr>
           <th>Dish</th>
           <th>Price</th>
+          <th>Order</th>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
       </table>
     </div>
@@ -88,26 +97,32 @@
         <tr>
           <th>Dish</th>
           <th>Price</th>
+          <th>Order</th>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
       </table>
     </div>
@@ -116,33 +131,51 @@
         <tr>
           <th>Dish</th>
           <th>Price</th>
+          <th>Order</th>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
         <tr>
           <td>A</td>
           <td>B</td>
+          <td><a href="">order now</a></td>
         </tr>
       </table>
     </div>
   </div>
-  <br><br>
 </div>
+<br><br>
 
+<!-- Deal of the day -->
+<div id="dealOfTheDay">
+  <h1>Hot Deal Of The Day</h1>
+  <br>
+  <h3>Salad</h3>
+  <p>It's important to eat a variety of fresh fruits and vegetables, in as many different colors as possible. Combining them in a salad is both easy and delicious! Loaded with vitamins and minerals, eating a salad a day will also increase the level of powerful antioxidants in your blood.</p>
+  <br><br>
+  <button href="#" type="button">Order Now</button>
+</div>
+<br><br>
+
+<!-- popular dishes (real carousel)-->
 <div class="container" id="carouselContainer">
   <div class="row">
     <div class="col">
@@ -160,21 +193,60 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="img/restaurant4.jpg">
+        <div class="carousel-caption">
+          <h1>Pizza</h1>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="img/restaurant5.jpg">
+        <div class="carousel-caption">
+          <h1>Tacos</h1>
+        </div>
       </div>
       <div class="carousel-item">
         <img src="img/restaurant6.jpg">
+        <div class="carousel-caption">
+          <h1>Chicken Wings</h1>
+        </div>
       </div>
     </div>
     <a class="carousel-control-prev" href="#foodCarousel" data-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
+      <p class="carousel-control-prev-icon"></p>
     </a>
     <a class="carousel-control-next" href="#foodCarousel" data-slide="next">
-      <span class="carousel-control-next-icon"></span>
+      <p class="carousel-control-next-icon"></p>
     </a>
   </div>
 </div>
+<br><br><br><br><br>
+
+<!-- counter -->
+<div id="customer">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <i class="fas fa-smile"></i>
+      </div>
+      <div class="col">
+        <i class="fas fa-concierge-bell"></i>
+      </div>
+      <div class="col">
+        <i class="fas fa-glass-martini-alt"></i>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p id="counter1">3286</p>
+      </div>
+      <div class="col">
+        <p id="counter2">1542</p>
+      </div>
+      <div class="col">
+        <p id="counter3">2112</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br><br>
 </body>
 </html>
