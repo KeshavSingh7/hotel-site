@@ -188,6 +188,12 @@ function validateContact() {
     }
 }
 
+//automatically move to the next text field
+function moveToNext(curf, nextf) {  
+    if (curf.value.length >= curf.maxLength)
+        document.getElementById(nextf).focus();    
+    }  
+
 //form submission condition
 function validate() {
     return (valid1 && valid2 && valid3 && valid4  && valid5 && valid6 && valid7 && valid8 && valid9);
