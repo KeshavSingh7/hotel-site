@@ -31,13 +31,13 @@
     </div>
     <div class="row">
       <div class="col">
-          <input type="text" id="fname" class="form-control" onkeyup="validateFname()" placeholder="First" maxlength="10">
+          <input type="text" id="fname" class="form-control" onkeydown="validateFname()" onkeyup="moveToNext(this, 'lname')" placeholder="First" maxlength="10">
           <i class="fa fa-check-circle"></i>
           <i class="fa fa-times-circle"></i>
           <small></small>
       </div>
       <div class="col">
-        <input type="text" id="lname" class="form-control" onkeyup="validateLname()" placeholder="Last">
+        <input type="text" id="lname" class="form-control" onkeydown="validateLname()" onkeyup="moveToNext(this, 'address')" placeholder="Last" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
@@ -52,7 +52,7 @@
     </div>
     <div class="row">
       <div class="col">
-        <input type="text" id="address" class="form-control" onkeyup="validateAddress()" placeholder="House No., Building Name, Road Name, Area">
+        <input type="text" id="address" class="form-control" onkeydown="validateAddress()" onkeyup="moveToNext(this, 'city')" placeholder="House No., Building Name, Road Name, Area" maxlength="20">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
@@ -62,13 +62,13 @@
     <br>
     <div class="row">
       <div class="col">
-        <input type="text" id="city" class="form-control" onkeyup="validateCity()" placeholder="City">
+        <input type="text" id="city" class="form-control" onkeydown="validateCity()" onkeyup="moveToNext(this, 'state')" placeholder="City" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
       </div>
       <div class="col">
-        <input type="text" id="state" class="form-control" onkeyup="validateState()" placeholder="State">
+        <input type="text" id="state" class="form-control" onkeydown="validateState()" onkeyup="moveToNext(this, 'country')" placeholder="State" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
@@ -78,13 +78,13 @@
     <br>
     <div class="row">
       <div class="col">
-        <input type="text" id="country" class="form-control" onkeyup="validateCountry()" placeholder="Country">
+        <input type="text" id="country" class="form-control" onkeydown="validateCountry()" onkeyup="moveToNext(this, 'pincode')" placeholder="Country" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
       </div>
       <div class="col">
-        <input type="text" id="pincode" class="form-control" onkeyup="validatePincode()" placeholder="Pincode" >
+        <input type="text" id="pincode" class="form-control" onkeydown="validatePincode()" onkeyup="moveToNext(this, 'mail')" placeholder="Pincode" maxlength="6">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
@@ -103,13 +103,13 @@
     </div>
     <div class="row">
       <div class="col">
-        <input type="text" id="mail" class="form-control" onkeyup="validateEmail()" placeholder="abc@xyz.com">
+        <input type="text" id="mail" class="form-control" onkeydown="validateEmail()" onkeyup="moveToNext(this, 'contact')" placeholder="abc@xyz.com" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
       </div>
       <div class="col">
-        <input type="text" id="contact" class="form-control" onkeyup="validateContact()" placeholder="Contact">
+        <input type="text" id="contact" class="form-control" onkeydown="validateContact()" placeholder="Contact" maxlength="10">
         <i class="fa fa-check-circle"></i>
         <i class="fa fa-times-circle"></i>
         <small></small>
