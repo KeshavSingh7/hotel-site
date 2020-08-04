@@ -29,15 +29,15 @@ hr {
   border-top: 2px solid red;
 }
 
-.fa.fa-cutlery {
+.fas.fa-utensils {
   color: white;
   background-color: orangered;
   padding: 25px;
   border-radius: 50px;
-  font-size: 50px;
+  font-size: 40px;
 }
 
-a:hover .fa.fa-cutlery{
+a:hover .fas.fa-utensils{
   animation: shake 1s;
   background-color: black;
 }
@@ -66,10 +66,108 @@ a:hover #breakfast, a:hover #lunch, a:hover #dinner {
   color:orangered;
 }
 
+th {
+  background: rgba(0, 0, 0);
+}
+
+#dealOfTheDay {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/restaurant7.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+  text-align: center;
+  color: white;
+}
+
+#dealOfTheDay h1 {
+  position: relative;
+  top:10%;
+  text-decoration: underline;
+}
+
+#dealOfTheDay h3 {
+  position: relative;
+  top:10%;
+}
+
+#dealOfTheDay p {
+  position: relative;
+  top: 10%;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#dealOfTheDay button {
+  outline: none;
+  border: white 1px solid;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px 20px;
+  background: orangered;
+  color: white;
+  font-weight: bold;
+}
+
+#dealOfTheDay button:hover {
+  color: orangered;
+  background-color: white;
+}
+
 .carousel-item img {
   height:500px;
   width: 100%;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+}
+
+.carousel-item:nth-child(1) .carousel-caption{
+  text-align: right;
+  color: red;
+  text-decoration: underline;
+}
+
+.carousel-item:nth-child(2) .carousel-caption{
+  text-align: left;
+  color: black;
+  text-decoration: underline;
+}
+
+.carousel-item:nth-child(3) .carousel-caption{
+  text-align: right;
+  color: red;
+  text-decoration: underline;
+}
+
+#customer {
+  background: linear-gradient(rgba(0, 0 , 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/restaurant8.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 300px;
+}
+
+#customer .row .col i {
+  padding-top: 50px;
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+#customer .row .col p {
+  padding-top: 25px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
 }
