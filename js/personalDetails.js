@@ -13,6 +13,7 @@ function validateFname() {
         if(fnv.length < 3) {
             fn.parentElement.className = 'col error';
             fn.parentElement.querySelector('small').innerText='First name cannot be less than 3 words'
+            valid1 = false;
         }
 
         else {
@@ -23,6 +24,7 @@ function validateFname() {
     else {
         fn.parentElement.className = 'col error';
         fn.parentElement.querySelector('small').innerText='Name cannot contain numbers'
+        valid1 = false;
     }    
 }
 
@@ -34,6 +36,7 @@ function validateLname() {
         if(lnv.length < 3) {
             ln.parentElement.className = 'col error';
             ln.parentElement.querySelector('small').innerText='Last name cannot be less than 3 words'
+            valid2 = false;
         }
 
         else {
@@ -44,6 +47,7 @@ function validateLname() {
     else {
         ln.parentElement.className = 'col error';
         ln.parentElement.querySelector('small').innerText='Name cannot contain numbers'    
+        valid2 = false;
     }
 }
 
@@ -55,6 +59,7 @@ function validateAddress() {
         if(av.length < 15) {
             a.parentElement.className = 'col error';
             a.parentElement.querySelector('small').innerText='Address cannot be less than 15 words'
+            valid3 = false;
         }
 
         else {
@@ -64,7 +69,8 @@ function validateAddress() {
     }
     else {
         a.parentElement.className = 'col error';
-        a.parentElement.querySelector('small').innerText='Address cannot contain special character other than "." and ","'   
+        a.parentElement.querySelector('small').innerText='Address cannot contain special character other than "." and ","'
+        valid3= false;   
     }
 }
 
@@ -76,6 +82,7 @@ function validateCity() {
         if(cv.length < 3) {
             c.parentElement.className = 'col error';
             c.parentElement.querySelector('small').innerText='City name cannot be less than 3 words'
+            valid4 = false;
         }
 
         else {
@@ -86,6 +93,7 @@ function validateCity() {
     else {
         c.parentElement.className = 'col error';
         c.parentElement.querySelector('small').innerText='City name cannot contain numbers'
+        valid4 = false;
         
     }
 }
@@ -98,6 +106,7 @@ function validateState() {
         if(sv.length < 3) {
             s.parentElement.className = 'col error';
             s.parentElement.querySelector('small').innerText='State name cannot be less than 3 words'
+            valid5 = false;
         }
 
         else {
@@ -108,6 +117,7 @@ function validateState() {
     else {
         s.parentElement.className = 'col error';
         s.parentElement.querySelector('small').innerText='State name cannot contain numbers'
+        valid5 = false;
     }     
 }
 
@@ -119,6 +129,7 @@ function validatePincode() {
         if(pv.length < 6) {
             p.parentElement.className = 'col error';
             p.parentElement.querySelector('small').innerText='Pincode cannot be less than 6 numbers'
+            valid6 = false;
         }
 
         else {    
@@ -129,6 +140,7 @@ function validatePincode() {
      else {
         p.parentElement.className = 'col error';
         p.parentElement.querySelector('small').innerText='Pincode can contain only numbers'  
+        valid6 = false;
     }
 }
 
@@ -140,6 +152,7 @@ function validateCountry() {
         if(cv.length < 3) {
             c.parentElement.className = 'col error';
             c.parentElement.querySelector('small').innerText='Country name cannot be less than 3 words'
+            valid7 = false;
         }
 
         else {
@@ -150,6 +163,7 @@ function validateCountry() {
     else {
         c.parentElement.className = 'col error';
         c.parentElement.querySelector('small').innerText='Country name cannot contain numbers'    
+        valid7 = false;
     }
 }
 
@@ -164,6 +178,7 @@ function validateEmail() {
     else {
         e.parentElement.className = 'col error';
         e.parentElement.querySelector('small').innerText='Email format not correct'
+        valid8 = false;
     }
 }
 
@@ -175,6 +190,7 @@ function validateContact() {
         if(cv.length < 10) {
             c.parentElement.className = 'col error';
             c.parentElement.querySelector('small').innerText='Contact no. cannot be less than 10 digits'
+            valid9 = false;
         }
 
         else {
@@ -185,15 +201,10 @@ function validateContact() {
     else {
         c.parentElement.className = 'col error';
         c.parentElement.querySelector('small').innerText='Contact no. can contain only numbers'    
+        valid9 = false;
     }
 }
-
-//automatically move to the next text field
-function moveToNext(curf, nextf) {  
-    if (curf.value.length >= curf.maxLength)
-        document.getElementById(nextf).focus();    
-    }  
-
+  
 //form submission condition
 function validate() {
     return (valid1 && valid2 && valid3 && valid4  && valid5 && valid6 && valid7 && valid8 && valid9);
