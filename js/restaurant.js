@@ -1,23 +1,14 @@
 $(document).ready(function() {
     $("#bi").click(function() {
-        $("#backdrop").css({"background": "url('img/restaurant1.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
-        $("#bi").css({"text-decoration":"overline orangered"});
-        $("#sad").css({"text-decoration":"none"});
-        $("#b").css({"text-decoration":"none"});
+        $("#backdrop").css({"background": "url('img/restaurant1.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "1s linear"});
     });
 
     $("#sad").click(function() {
-        $("#backdrop").css({"background": "url('img/restaurant2.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
-        $("#sad").css({"text-decoration":"overline orangered"});
-        $("#bi").css({"text-decoration":"none"});
-        $("#b").css({"text-decoration":"none"});  
+        $("#backdrop").css({"background": "url('img/restaurant2.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "1s linear"}); 
     });
 
     $("#b").click(function() {
-        $("#backdrop").css({"background": "url('img/restaurant3.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "background 1s ease-in"});
-        $("#b").css({"text-decoration":"overline orangered"});
-        $("#bi").css({"text-decoration":"none"});
-        $("#sad").css({"text-decoration":"none"});
+        $("#backdrop").css({"background": "url('img/restaurant3.jpg')", "background-position": "center center", "background-size": "cover", "height":"625px", "text-align": "center", "padding-top": "450px", "transition": "1s linear"});
     });
 
     $("#bi").hover(function() {
@@ -29,11 +20,6 @@ $(document).ready(function() {
 
     $("#b").hover(function() {
         $(this).css({"text-decoration":"overline orangered"})}, function(){$(this).css({"text-decoration":"none"});
-    });
-
-    $('.counter').counterUp({
-        delay: 10,
-        time: 1000
     });
 
     $('.preview9').click(function(){
@@ -68,7 +54,7 @@ $(document).ready(function() {
         $(".modal-image").attr("src", "img/restaurant16.jpg");
     });
 
-    var sub1 = false, sub2 = false, sub3 = false, sub4=false;
+    var sub1 = false, sub2 = false, sub3 = false;
     var alphaRegEx = /^[A-Za-z ]+$/;
     var numregEx =/^[0-9]+$/;
     var alphaNumRegEx = /^[A-Za-z0-9.,/ ]+$/;
@@ -150,14 +136,7 @@ $(document).ready(function() {
             $(this).parent().parent().find('input').val(a-1);
     });
     
-    $(".placeOrder").on('click', function(){
-        $('tr').each(function(){
-            alert($('tr td').find('input').val()) ; 
-        });
-    });
-
     $("#form").submit(function(){
         return sub1 && sub2 && sub3 && sub4;
     });
 });
-
