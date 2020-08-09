@@ -4,13 +4,136 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="D:\github\bootstrap-4.5.0-dist\css\bootstrap.min.css">
-  <script src="D:\github\bootstrap-4.5.0-dist\js\bootstrap.min.js"></script>
-  <script src="D:\github\jquery-3.5.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css\availability.css" />
-  <script type="text/javascript" src="js\availability.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css">
+  <link rel="stylesheet" type="text/css" href="css/checkout.css">
+  <script type="text/javascript" src="js/checkout.js"></script>
 </head>
 <body>
-
+  <div class="container" id="paymentMethod">
+    <div class="row">
+      <div class="col">
+        <h2>Select a payment method</h2>
+      </div>
+    </div>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <h5>Credit/Debit Card</h5>
+      </div>
+      <div class="col">
+        <h5>Net Banking</h5>
+      </div>
+      <div class="col">
+        <h5>UPI</h5>
+      </div>
+      <div class="col">
+        <h5>Cash</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div id="card" onclick="pay1()">
+          <i class="far fa-credit-card"></i>
+        </div>
+      </div>
+      <div class="col">
+        <div id="netbanking" onclick="pay2()">
+          <i class="fas fa-landmark"></i>
+        </div>
+      </div>
+      <div class="col">
+        <div id="upi" onclick="pay3()">
+          <i class="fas fa-wallet"></i>
+        </div>
+      </div>
+      <div class="col">
+        <a href="#"><div id="cod" onclick="pay4()">
+          <i class="far fa-money-bill-alt"></i>
+        </div></a>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="method1">
+    <form  onsubmit="return submission()" method="post">
+      <div class="row">
+        <div class="col">
+          <label for="cardno">Card Number</label>
+          <input type="text" class="form-control" id="cardno" onkeyup="validateCard()" placeholder="1111 2222 3333 4444" maxlength="19">
+          <small>abc</small>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col">
+          <label for="expiry">Expiy/Validy Date</label>
+          <input type="text" class="form-control" id="expiry" onkeyup="validateExpiry()" placeholder="08/2020" maxlength="7">
+          <small></small>
+        </div>
+        <div class="col">
+          <label for="cvv">CVV</label>
+          <input type="text" class="form-control" id="cvv" onkeyup="validateCVV()" placeholder="123" maxlength="3">
+          <small></small>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <button type="submit" class="btn btn-success">Pay</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="container" id="method2">
+    <div class="row">
+      <div class="col">
+        <h5>Select Your Bank</h5>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-danger" id="icici"><i class="fas fa-landmark"></i>    ICICI Bank</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-info" id="hdfc"><i class="fas fa-landmark"></i>   HDFC Bank</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <button type="button" class="btn btn-primary" id="sbi"><i class="fas fa-landmark"></i>   SBI</button>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="method3">
+    <form onsubmit="return verification()" method="post">
+    <div class="row">
+      <div class="col">
+        <h5>Verify your UPI ID</h5>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-9">
+        <label for="upiid">UPI ID</label>
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-9">
+        <input type="text" id="upiid" onkeyup="verify()" class="form-control" placeholder="abc@okicici">
+        <small></small>
+      </div>
+      <div class="col-md-3">
+        <button type="submit" class="btn btn-warning">Proceed</button>
+      </div>
+    </div>
+    </form>
+  </div>
+  <br><br>
 </body>
 </html>
