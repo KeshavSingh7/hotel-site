@@ -1,0 +1,310 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#home {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel1.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 625px;
+}
+
+.nav {
+  background-color: rgba(0, 0, 0, 1);
+  height: 50px;
+}
+
+.nav-link {
+  color:rgba(175, 175, 175, 1);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.fa-mountain {
+  font-size: 40px;
+}
+
+.fa-angle-down {
+  position: absolute;
+  font-size: 25px;
+  border-radius: 50%;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: rgba(15, 15, 0, 1);
+  left: 47.5%;
+}
+
+.fa-angle-down:nth-of-type(1) {
+  top: 595px;
+}
+
+.fa-angle-down:nth-of-type(2) {
+  top: 1220px;
+}
+
+.fa-angle-down:nth-of-type(3) {
+  top: 1995px;
+}
+
+.fa-angle-down:nth-of-type(4) {
+  top: 2595px;
+}
+
+#logo {
+  text-align: center;
+  padding-top: 200px;
+  color: rgba(255, 255, 255, 1);
+}
+
+#logo .fa-mountain {
+  font-size: 100px;
+}
+
+#logo h1 {
+  text-decoration: overline;
+  font-weight: bolder;
+}
+
+#logo h2 {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+#about {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel2.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 625px;
+  text-align: center;
+}
+
+#aboutHotel {
+  color: rgba(255, 255, 255, 1);
+  padding-top: 100px;
+}
+
+#aboutHotel h2 {
+  font-weight: bold;
+  text-decoration: overline;
+  font-style: italic;
+}
+
+#activities {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel3.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 775px;
+  text-align: center;
+}
+
+#activity {
+  color: rgba(255, 255, 255, 1);
+  padding-top: 100px;
+}
+
+#activity h2 {
+  font-weight: bold;
+  text-decoration: overline;
+  font-style: italic;
+}
+
+#activity img {
+  width: 250px;
+  height: 250px;
+}
+
+#gallery {
+  height: 600px;
+  width: 100%;
+}
+
+#gallery .row {
+  overflow: hidden;
+}
+
+#img1 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel7.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img2 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel11.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img3 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel12.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+  position: relative;
+}
+
+#img4 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel13.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img5 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel14.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img6 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel8.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img7 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel9.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img8 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel10.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img9 {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel15.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transition: linear 0.2s;
+}
+
+#img1:hover {
+  background: url('../img/hotel7.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img2:hover {
+  background: url('../img/hotel11.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img3:hover {
+  background: url('../img/hotel12.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img4:hover {
+  background: url('../img/hotel13.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img5:hover {
+  background: url('../img/hotel14.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img6:hover {
+  background: url('../img/hotel8.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img7:hover {
+  background: url('../img/hotel9.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img8:hover {
+  background: url('../img/hotel10.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#img9:hover {
+  background: url('../img/hotel15.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
+#booking {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel16.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+  width: 100%;
+  text-align: center;
+}
+
+#booking .container {
+}
+
+#booking label {
+  color: white; 
+}
+
+#booking .input-group {
+}
+
+#booking .btn-primary {
+  width:100%;
+}
