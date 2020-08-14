@@ -1,4 +1,4 @@
-const alphaRegEx = /^[A-Za-z]+$/; // regular expression for  alphabets
+const alphaRegEx = /^[A-Za-z ]+$/; // regular expression for  alphabets
 const addRegEx = /^[A-Za-z0-9., ]+$/; // regular expression for address
 const numRegEx = /^[0-9]+$/; // regular expression for numbers
 const mailRegEx = /^[a-z0-9._]+@[a-z]+\.[a-z]{2,3}$/; //regular expression for email
