@@ -132,7 +132,6 @@ button {
 .col small {
   color: red;
   position: absolute;
-  bottom: -20px;
   left: 15px;
   visibility: hidden;
 }

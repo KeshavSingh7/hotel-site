@@ -204,7 +204,7 @@ input::-webkit-inner-spin-button {
   font-size: 50px;
 }
 
-#customer .row .col p {
+#customer .row .col span {
   padding-top: 25px;
   text-align: center;
   color: white;
@@ -274,6 +274,10 @@ input::-webkit-inner-spin-button {
   outline: none;
   color: white;
   font-size: 50px;
+}
+
+.modal button:hover {
+  color: red;
 }
 
 .modal-body {

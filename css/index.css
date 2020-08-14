@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  position: relative;
+}
+
 #home {
   background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel1.jpg');
   background-position: center;
@@ -10,52 +14,13 @@ html {
   height: 625px;
 }
 
-.nav {
-  background-color: rgba(0, 0, 0, 1);
-  height: 50px;
-}
-
 .nav-link {
-  color:rgba(175, 175, 175, 1);
   font-size: 20px;
   font-weight: bold;
 }
 
-.nav-link:hover {
-  color: rgba(255, 255, 255, 1);
-}
-
 .fa-mountain {
   font-size: 40px;
-}
-
-.fa-angle-down {
-  position: absolute;
-  font-size: 25px;
-  border-radius: 50%;
-  color: white;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 24px;
-  padding-right: 24px;
-  background: rgba(15, 15, 0, 1);
-  left: 47.5%;
-}
-
-.fa-angle-down:nth-of-type(1) {
-  top: 595px;
-}
-
-.fa-angle-down:nth-of-type(2) {
-  top: 1220px;
-}
-
-.fa-angle-down:nth-of-type(3) {
-  top: 1995px;
-}
-
-.fa-angle-down:nth-of-type(4) {
-  top: 2595px;
 }
 
 #logo {
@@ -124,12 +89,24 @@ html {
 }
 
 #gallery {
-  height: 600px;
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel17.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 858px;
   width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
 }
 
 #gallery .row {
   overflow: hidden;
+}
+
+#gallery h2 {
+  text-decoration: overline;
+  font-weight: bold;
+  font-style: italic;
 }
 
 #img1 {
@@ -154,7 +131,6 @@ html {
   background-size: cover;
   height: 300px;
   transition: linear 0.2s;
-  position: relative;
 }
 
 #img4 {
@@ -286,6 +262,27 @@ html {
   transition: linear 0.2s;
 }
 
+.zoom:hover .overlay{
+  visibility: visible;
+}
+
+.overlay {
+  position: absolute;
+  top: 45%;
+  left: 45%;
+  visibility: hidden;
+}
+
+.overlay button {
+  background: transparent;
+  border: none;
+  outline: none;
+}
+
+.overlay i {
+  font-size: 25px;
+}
+
 #booking {
   background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel16.jpg');
   background-position: center;
@@ -295,16 +292,82 @@ html {
   text-align: center;
 }
 
-#booking .container {
-}
-
 #booking label {
-  color: white; 
-}
-
-#booking .input-group {
+  color: white;
 }
 
 #booking .btn-primary {
   width:100%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.form-control:active, .btn:active, .form-control:focus, .btn:focus {
+  box-shadow: none;
+}
+
+#contact {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel18.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#contact .fa-angle-up {
+  color: white;
+}
+
+#contactus pre {
+  color: white;
+  font-size: 15px;
+}
+
+#contact h4 {
+  color: orangered;
+  text-decoration: underline;
+}
+
+#contact i {
+  color: orangered;
+}
+
+#social pre {
+  font-size: 35px;
+}
+
+.input-group {
+  width: 75%;
+  margin: 0 auto;
+  float: none;
+}
+
+.modal {
+  margin-top: 75px;
+}
+
+.modal button{
+  position: absolute;
+  top: -15px;
+  right: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 50px;
+}
+
+.modal button:hover {
+  color: red;
+}
+
+.modal img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
 }

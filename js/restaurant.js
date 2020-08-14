@@ -53,7 +53,7 @@ $(document).ready(function() {
     $('.preview16').click(function(){
         $(".modal-image").attr("src", "img/restaurant16.jpg");
     });
-
+    
     var sub1 = false, sub2 = false, sub3 = false;
     var alphaRegEx = /^[A-Za-z ]+$/;
     var numregEx =/^[0-9]+$/;
@@ -139,4 +139,8 @@ $(document).ready(function() {
     $("#form").submit(function(){
         return sub1 && sub2 && sub3 && sub4;
     });
+
+    $('.counter').rCounter({
+            duration: 30
+          }); 
 });
