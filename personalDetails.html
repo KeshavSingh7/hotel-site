@@ -1,132 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="css\personalDetails.css">
-  <script type="text/javascript" src="js\personalDetails.js"></script>
-</head>
-<body>
-  <div class="container">
-    <form action="checkout.html" id="form" onsubmit="return validate()">
-    <div class="row">
-      <div class="col" id="header">
-        <h2> Personal Details </h2>
-      </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css\personalDetails.css" />
+    <script type="text/javascript" src="js\personalDetails.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form action="checkout.html" id="form" onsubmit="return validate()">
+        <div class="row">
+          <div class="col" id="header">
+            <h2>Personal Details</h2>
+          </div>
+        </div>
+        <br />
+        <!-- Name -->
+        <div class="row">
+          <div class="col">
+            <label for="fname">Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              id="fname"
+              class="form-control"
+              onkeyup="validateFname()"
+              placeholder="First"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="lname"
+              class="form-control"
+              onkeyup="validateLname()"
+              placeholder="Last"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+        </div>
+        <br />
+        <!-- Address -->
+        <div class="row">
+          <div class="col">
+            <label>Address</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              id="address"
+              class="form-control"
+              onkeyup="validateAddress()"
+              placeholder="House No., Building Name, Road Name, Area"
+              maxlength="25"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              id="city"
+              class="form-control"
+              onkeyup="validateCity()"
+              placeholder="City"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="state"
+              class="form-control"
+              onkeyup="validateState()"
+              placeholder="State"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              id="country"
+              class="form-control"
+              onkeyup="validateCountry()"
+              placeholder="Country"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="pincode"
+              class="form-control"
+              onkeyup="validatePincode()"
+              placeholder="Pincode"
+              maxlength="6"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+        </div>
+        <br />
+        <!-- Email & Contact -->
+        <div class="row">
+          <div class="col">
+            <label>Email</label>
+          </div>
+          <div class="col">
+            <label>Contact</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <input
+              type="text"
+              id="mail"
+              class="form-control"
+              onkeyup="validateEmail()"
+              placeholder="abc@xyz.com"
+              maxlength="20"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              id="contact"
+              class="form-control"
+              onkeyup="validateContact()"
+              placeholder="Contact"
+              maxlength="10"
+            />
+            <i class="fa fa-check-circle"></i>
+            <i class="fa fa-times-circle"></i>
+            <small></small>
+          </div>
+        </div>
+        <br />
+        <!-- Navigation buttons -->
+        <div class="row">
+          <div class="col">
+            <a href="index.html"
+              ><button type="button" id="back" class="btn btn-warning">
+                <span>Back</span>
+              </button></a
+            >
+          </div>
+          <div class="col">
+            <button type="submit" id="proceed" class="btn btn-success">
+              <span>Proceed</span>
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
-    <br>
-    <!-- Name -->
-    <div class="row">
-      <div class="col">
-        <label for="fname">Name</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-          <input type="text" id="fname" class="form-control" onkeyup="validateFname()" placeholder="First" maxlength="10">
-          <i class="fa fa-check-circle"></i>
-          <i class="fa fa-times-circle"></i>
-          <small></small>
-      </div>
-      <div class="col">
-        <input type="text" id="lname" class="form-control" onkeyup="validateLname()"  placeholder="Last" maxlength="10">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-    </div>
-    <br>
-    <!-- Address -->
-    <div class="row">
-      <div class="col">
-        <label>Address</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="address" class="form-control" onkeyup="validateAddress()" placeholder="House No., Building Name, Road Name, Area" maxlength="25">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="city" class="form-control" onkeyup="validateCity()"  placeholder="City" maxlength="10">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-      <div class="col">
-        <input type="text" id="state" class="form-control" onkeyup="validateState()" placeholder="State" maxlength="10">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-    </div>
-    <br>
-    <br>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="country" class="form-control" onkeyup="validateCountry()" placeholder="Country" maxlength="10">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-      <div class="col">
-        <input type="text" id="pincode" class="form-control" onkeyup="validatePincode()" placeholder="Pincode" maxlength="6">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-    </div>
-    <br>
-    <br>
-    <!-- Email & Contact -->
-    <div class="row">
-      <div class="col">
-        <label>Email</label>
-      </div>
-      <div class="col">
-        <label>Contact</label>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <input type="text" id="mail" class="form-control" onkeyup="validateEmail()" placeholder="abc@xyz.com" maxlength="20">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-      <div class="col">
-        <input type="text" id="contact" class="form-control" onkeyup="validateContact()" placeholder="Contact" maxlength="10">
-        <i class="fa fa-check-circle"></i>
-        <i class="fa fa-times-circle"></i>
-        <small></small>
-      </div>
-    </div>
-    <br>
-    <br>
-    <!-- Navigation buttons -->
-    <div class="row">
-      <div class="col">
-        <a href="index.html"><button type="button" id="back" class="btn btn-warning"><span>Back</span></button></a>
-      </div>
-      <div class="col">
-      </div>
-      <div class="col">
-        <button type="submit" id="proceed" class="btn btn-success"><span>Proceed</span></button>
-      </div>
-    </div>
-    </form>
-  </div>
-</body>
+  </body>
 </html>

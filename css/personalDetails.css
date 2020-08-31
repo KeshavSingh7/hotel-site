@@ -1,6 +1,6 @@
 /*background image*/
 body {
-  background: url('../img/room.jpg');
+  background: url("../img/room.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
@@ -12,12 +12,14 @@ body {
 /*form outline*/
 .container {
   margin: auto;
-  width: 60%;
+  min-width: 60vw;
+  width: fit-content;
   margin-top: 35px;
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, 0.7);
   border: 1px white solid;
-  border-radius : 10px;
+  border-radius: 10px;
   padding: 20px;
+  text-align: center;
 }
 
 /*header styling*/
@@ -49,14 +51,12 @@ label {
 }
 
 /* Button Styling*/
-
 button {
-  width: auto;
+  width: fit-content;
 }
 
-/*aligning the proceed button to the right*/
-.col:nth-child(3) {
-  text-align: right;
+.row:nth-last-child(1) .col {
+  text-align: center;
 }
 
 /*animation to the button on hovering */
@@ -67,23 +67,23 @@ button {
   transition: 0.5s;
 }
 
-#back:hover span{
+#back:hover span {
   padding-left: 25px;
 }
 
-#proceed:hover span{
+#proceed:hover span {
   padding-right: 25px;
 }
 
 #back span:before {
-  content: '\00ab';
+  content: "\00ab";
   opacity: 0;
   top: 0;
   position: absolute;
 }
 
 #proceed span:after {
-  content: '\00bb';
+  content: "\00bb";
   opacity: 0;
   top: 0;
   position: absolute;
@@ -91,23 +91,23 @@ button {
 
 #back:hover span:before {
   opacity: 1;
-  left:0;
+  left: 0;
 }
 
 #proceed:hover span:after {
   opacity: 1;
-  right:0;
+  right: 0;
 }
 
 /*removing default bootstrap button styling */
 .btn-warning:focus,
 .btn-warning:active {
-    box-shadow:none;
+  box-shadow: none;
 }
 
 .btn-success:focus,
 .btn-success:active {
-    box-shadow:none;
+  box-shadow: none;
 }
 
 /* validation styling */

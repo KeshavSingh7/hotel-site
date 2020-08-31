@@ -1,22 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
-}
-
-body {
-  position: relative;
-}
-
-#home {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel1.jpg');
-  background-position: center;
-  background-size: cover;
-  width: 100%;
-  height: 625px;
 }
 
 .nav-link {
   font-size: 20px;
   font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-toggler:active,
+.navbar-toggler:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+#home {
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel1.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 50px;
 }
 
 .fa-mountain {
@@ -44,12 +55,14 @@ body {
 }
 
 #about {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel2.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel2.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 625px;
+  height: fit-content;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #aboutHotel {
@@ -64,12 +77,14 @@ body {
 }
 
 #activities {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel3.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel3.jpg");
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 775px;
+  height: fit-content;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 #activity {
@@ -89,10 +104,11 @@ body {
 }
 
 #gallery {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel17.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel17.jpg");
   background-position: center;
   background-size: cover;
-  height: 858px;
+  height: fit-content;
   width: 100%;
   text-align: center;
   color: white;
@@ -110,7 +126,8 @@ body {
 }
 
 #img1 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel7.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel7.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -118,7 +135,8 @@ body {
 }
 
 #img2 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel11.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel11.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -126,7 +144,8 @@ body {
 }
 
 #img3 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel12.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel12.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -134,7 +153,8 @@ body {
 }
 
 #img4 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel13.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel13.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -142,7 +162,8 @@ body {
 }
 
 #img5 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel14.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel14.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -150,7 +171,8 @@ body {
 }
 
 #img6 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel8.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel8.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -158,7 +180,8 @@ body {
 }
 
 #img7 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel9.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel9.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -166,7 +189,8 @@ body {
 }
 
 #img8 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel10.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel10.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -174,7 +198,8 @@ body {
 }
 
 #img9 {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel15.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel15.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -182,7 +207,7 @@ body {
 }
 
 #img1:hover {
-  background: url('../img/hotel7.jpg');
+  background: url("../img/hotel7.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -191,7 +216,7 @@ body {
 }
 
 #img2:hover {
-  background: url('../img/hotel11.jpg');
+  background: url("../img/hotel11.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -200,7 +225,7 @@ body {
 }
 
 #img3:hover {
-  background: url('../img/hotel12.jpg');
+  background: url("../img/hotel12.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -209,7 +234,7 @@ body {
 }
 
 #img4:hover {
-  background: url('../img/hotel13.jpg');
+  background: url("../img/hotel13.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -218,7 +243,7 @@ body {
 }
 
 #img5:hover {
-  background: url('../img/hotel14.jpg');
+  background: url("../img/hotel14.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -227,7 +252,7 @@ body {
 }
 
 #img6:hover {
-  background: url('../img/hotel8.jpg');
+  background: url("../img/hotel8.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -236,7 +261,7 @@ body {
 }
 
 #img7:hover {
-  background: url('../img/hotel9.jpg');
+  background: url("../img/hotel9.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -245,7 +270,7 @@ body {
 }
 
 #img8:hover {
-  background: url('../img/hotel10.jpg');
+  background: url("../img/hotel10.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -254,7 +279,7 @@ body {
 }
 
 #img9:hover {
-  background: url('../img/hotel15.jpg');
+  background: url("../img/hotel15.jpg");
   background-position: center;
   background-size: cover;
   height: 300px;
@@ -262,7 +287,7 @@ body {
   transition: linear 0.2s;
 }
 
-.zoom:hover .overlay{
+.zoom:hover .overlay {
   visibility: visible;
 }
 
@@ -284,20 +309,61 @@ body {
 }
 
 #booking {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel16.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel16.jpg");
   background-position: center;
   background-size: cover;
-  height: 550px;
+  height: fit-content;
   width: 100%;
   text-align: center;
+  padding-bottom: 100px;
 }
 
 #booking label {
   color: white;
 }
 
+.remove {
+  height: 38px;
+  width: 38px;
+  padding: 10px;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  background: red;
+  top: 32px;
+  right: 53px;
+}
+
+.remove i {
+  font-size: 20px;
+}
+
+.add {
+  height: 38px;
+  width: 38px;
+  padding: 10px;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  background: green;
+  top: 32px;
+  right: 15px;
+  border-radius: 0 4px 4px 0;
+}
+
+.add i {
+  font-size: 20px;
+}
+
+#booking .col-md-2 {
+  width: fit-content;
+}
+
 #booking .btn-primary {
-  width:100%;
+  width: fit-content;
 }
 
 input::-webkit-outer-spin-button,
@@ -306,18 +372,24 @@ input::-webkit-inner-spin-button {
   margin: 0;
 }
 
-.form-control:active, .btn:active, .form-control:focus, .btn:focus {
+.form-control:active,
+.btn-primary:active,
+.form-control:focus,
+.btn-primary:focus {
   box-shadow: none;
+  outline: none;
 }
 
 #contact {
-  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)), url('../img/hotel18.jpg');
+  background: linear-gradient(rgba(15, 15, 0, 0.7), rgba(15, 15, 0, 0.7)),
+    url("../img/hotel18.jpg");
   background-position: center;
   background-size: cover;
-  height: 350px;
+  height: fit-content;
   width: 100%;
   text-align: center;
   color: white;
+  padding-bottom: 50px;
 }
 
 #contact .fa-angle-up {
@@ -352,7 +424,7 @@ input::-webkit-inner-spin-button {
   margin-top: 75px;
 }
 
-.modal button{
+.modal button {
   position: absolute;
   top: -15px;
   right: 25px;
