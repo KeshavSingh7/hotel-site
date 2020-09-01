@@ -186,7 +186,7 @@ body{
 } 
 .case-study-images li img {
 	width: 100%;
-	height: auto;
+	height: 300px;
 	display: block;
 }
 .case-study-images li p {
