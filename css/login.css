@@ -9,7 +9,18 @@ body{
 	background-color: #1f2029;
 	overflow-x: hidden;
 }
-
+.moving-image {
+  background: url(../img/slider/bg.jpg) repeat fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width:100%;
+  opacity: 0.4;
+}
 /* cursor */
 .cursor,
 .cursor2,
@@ -162,18 +173,7 @@ p {
     transform-style: preserve-3d;
     transition: all 600ms ease-out; 
   }
-  .moving-image {
-    background: url(../img/slider/bg.jpg) repeat fixed;
-    background-size: cover;
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    width:100%;
-    opacity: 0.4;
-  }
+  
   .card-front, .card-back {
     width: 100%;
     height: 100%;
