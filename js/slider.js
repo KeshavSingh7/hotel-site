@@ -66,6 +66,12 @@
 			$('.case-study-images li:nth-child(4)').addClass("show");
 			$('.case-study-name:nth-child(4)').addClass('active');
 		})
+		$('.case-study-name:nth-child(5)').on('mouseenter', function() {
+			$('.case-study-name.active').removeClass('active');
+			$('.case-study-images li.show').removeClass("show");
+			$('.case-study-images li:nth-child(5)').addClass("show");
+			$('.case-study-name:nth-child(5)').addClass('active');
+		})
 		$('.case-study-name:nth-child(1)').trigger('mouseenter')
 					
 	});
