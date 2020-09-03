@@ -19,6 +19,7 @@
     <script type="text/javascript" src="js/checkout.js"></script>
   </head>
   <body>
+    <div class="moving-image"></div>
     <div class="container" id="paymentMethod">
       <div class="row">
         <div class="col">
@@ -42,9 +43,9 @@
       </div>
       <div class="row">
         <div class="col">
-          <div id="card" onclick="pay1()">
+          <a href="checkout pages/cardpay.html"><div id="card" onclick="">
             <i class="far fa-credit-card"></i>
-          </div>
+          </div></a>
         </div>
         <div class="col">
           <div id="netbanking" onclick="pay2()">
@@ -174,5 +175,6 @@
       </form>
     </div>
     <br /><br />
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
   </body>
 </html>
