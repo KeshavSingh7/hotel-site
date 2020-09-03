@@ -10,10 +10,20 @@ body {
   font-family: 'Open sans', sans-serif;
 }
 
-body {
- 
+body { 
 }
-
+.moving-image {
+    background: url(../img/slider/bg.jpg) repeat fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width:100%;
+    opacity: 0.4;
+  }
 .btn {
     display: block;
     background: #bded7d;
