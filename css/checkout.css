@@ -3,17 +3,24 @@ html {
 }
 
 body {
-  background: linear-gradient(
-    150deg,
-    rgba(0, 147, 233, 1),
-    rgba(128, 208, 199, 1)
-  );
+  
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-
+.moving-image {
+  background: url(../img/slider/bg.jpg) repeat fixed;
+  background-size: cover;
+  position: absolute;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width:100%;
+  opacity: 0.4;
+}
 .container {
   margin-top: 50px;
   background: rgba(250, 250, 250, 0.3);
