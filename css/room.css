@@ -21,7 +21,7 @@ a, a:hover {
 	bottom: 0;
 	z-index: 0;
 	width:100%;
-	opacity: 0.4;
+	opacity: 0.6;
 }
 .icon {
   display: inline-block;
@@ -149,6 +149,7 @@ img {
   color: #303030;
   border-radius: 10px;
   display: block;
+  background: #ffffff;
   transition: all .3s;
 }
 @media screen and (min-width: 800px) {
