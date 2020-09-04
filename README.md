@@ -4,4 +4,4 @@
 
 ### Page Link
 
-[click me](https://madhav2108.github.io/hotelSite/)
+[click me](https://keshavsingh7.github.io/hotelSite/)
