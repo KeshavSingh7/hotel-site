@@ -1,0 +1,7 @@
+body{
+	cursor: none;
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	height: 100vh;
+}
