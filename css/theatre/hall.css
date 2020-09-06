@@ -172,9 +172,9 @@ a:hover {
 .checkbox-belizehole:checked ~ .box.belizehole,
 .checkbox-sunflower:checked ~ .box.sunflower{
   opacity: 1;
-  min-height: 140px;
-  min-width: calc(22% - 28px);
-  padding: 0 10px;
+  height: 140px;
+  width: calc(22% - 28px);
+  padding: 0px;
   margin-left: 10px;
   margin-right: 10px;
   margin-top: 20px;
@@ -251,3 +251,12 @@ a:hover {
     height: 24px;
   }
 }
+.call{
+  height: 100%;
+  width: 100%;
+}
+.fullc{
+  margin: 0%;
+  padding: 0%;
+}
+
