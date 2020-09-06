@@ -13,12 +13,10 @@
 	right: 30px;
 	display: block;
 	z-index: 100;
-	transition: all 250ms linear;
-}
-.logo i {
-	height: 26px;
-	width: auto;
-	display: block;
+    transition: all 250ms linear;
+    color: var(--white-gr);
+	
+	overflow-x: hidden;
 }
 body{
 	color: var(--white-gr);
