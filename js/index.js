@@ -89,6 +89,9 @@ $(document).ready(function () {
     return flag;
   });
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d582ad... new
 
   function scrollBanner() {
 	  $(document).on('scroll', function(){
@@ -150,6 +153,7 @@ $(document).ready(function () {
 		
 		
   });
+<<<<<<< HEAD
 });
 
 	
@@ -157,3 +161,9 @@ $(document).ready(function () {
 =======
 });
 >>>>>>> a8b0b7f... page added
+=======
+});
+
+	
+	
+>>>>>>> 6d582ad... new
