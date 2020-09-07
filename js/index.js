@@ -88,6 +88,7 @@ $(document).ready(function () {
   $("#form").submit(function () {
     return flag;
   });
+<<<<<<< HEAD
 
   function scrollBanner() {
 	  $(document).on('scroll', function(){
@@ -153,3 +154,6 @@ $(document).ready(function () {
 
 	
 	
+=======
+});
+>>>>>>> a8b0b7f... page added

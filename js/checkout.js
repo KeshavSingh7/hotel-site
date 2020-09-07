@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // // Made by team (madhav,keshav)
 //usename ->Madhav2108
 //username ->KeshavSingh7
@@ -15,6 +16,9 @@
 
   })(jQuery);
   function pay1() {
+=======
+function pay1() {
+>>>>>>> a8b0b7f... page added
     document.getElementById('method1').style.display = "block";
     document.getElementById('method2').style.display = "none";
     document.getElementById('method3').style.display = "none";    document.getElementById('card').style.color = "white";

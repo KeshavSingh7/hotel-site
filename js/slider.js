@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Made by team (madhav,keshav)
 //usename ->Madhav2108
 //username ->KeshavSingh7
@@ -85,3 +86,9 @@
 	
 	
   })(jQuery);
+=======
+// Made by team (madhav,keshav)
+//usename ->Madhav2108
+//username ->KeshavSingh7
+//just go and check out profiles for more such projects;
+>>>>>>> a8b0b7f... page added

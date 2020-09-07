@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese');
 
 body{
@@ -243,3 +244,14 @@ case-study-wrapper .case-study-name:nth-child(6) a:before {
 .case-study-images li .info a:hover {
 	text-decoration: none;
 }
+=======
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese');
+
+body{
+	width: 100%;
+	height: 100vh;
+	background: #1f2029;
+	overflow: hidden;
+	font-family: 'Poppins', sans-serif;
+}
+>>>>>>> a8b0b7f... page added
