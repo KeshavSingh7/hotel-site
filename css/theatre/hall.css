@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #1f2029;
+
+  overflow-x: hidden;
+}
+a {
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: none;
+}
+.moving-image {
+  background: url(../../img/slider/bg.jpg) repeat fixed;
+  background-size: cover;
+  background-attachment: fixed;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  width: 100%;
+  opacity: 0.4;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  display: block;
+  padding: 34px 0;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 12px;
+  padding-right: 12px;
+  cursor: pointer;
+  line-height: 30px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:checked:hover + label:before,
+[type="radio"]:not(:checked):hover + label:before,
+[type="radio"]:checked:hover + label:after,
+[type="radio"]:not(:checked):hover + label:after {
+  opacity: 0.7;
+}
+[type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+  background-color: transparent;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+  content: "";
+  border-radius: 2px;
+  height: 3px;
+  background-color: #e74c3c;
+  position: absolute;
+  bottom: 0;
+  left: 12px;
+  z-index: -1;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  width: 0;
+}
+[type="radio"]:checked + label:after {
+  opacity: 1;
+  width: calc(100% - 24px);
+}
+.checkbox-all:checked + label:after,
+.checkbox-all:not(:checked) + label:after {
+  background-color: #000;
+}
+
+.checkbox-alizarin:checked + label:after,
+.checkbox-alizarin:not(:checked) + label:after {
+  background-color: #e74c3c;
+}
+
+.checkbox-wisteria:checked + label:after,
+.checkbox-wisteria:not(:checked) + label:after {
+  background-color: #8e44ad;
+}
+
+.checkbox-emerland:checked + label:after,
+.checkbox-emerland:not(:checked) + label:after {
+  background-color: #2ecc71;
+}
+
+.checkbox-belizehole:checked + label:after,
+.checkbox-belizehole:not(:checked) + label:after {
+  background-color: #2980b9;
+}
+
+.checkbox-sunflower:checked + label:after,
+.checkbox-sunflower:not(:checked) + label:after {
+  background-color: #f1c40f;
+}
+
+.box {
+  border-radius: 4px;
+  box-shadow: 6px 7px 28px 0 rgba(16, 16, 16, 0.7);
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.3s linear;
+}
+.box.alizarin {
+  border: 3px solid #e74c3c;
+}
+.box.wisteria {
+  border: 3px solid #8e44ad;
+}
+.box.emerland {
+  border: 3px solid #2ecc71;
+}
+.box.belizehole {
+  border: 3px solid #2980b9;
+}
+.box.sunflower {
+  border: 3px solid #f1c40f;
+}
+.box.alizarin,
+.box.wisteria,
+.box.emerland,
+.box.belizehole,
+.box.sunflower {
+  opacity: 0;
+  transform: scale(0);
+  padding: 0;
+  margin: 0;
+  display: none;
+  border-width: 0;
+}
+.checkbox-all:checked ~ .box.alizarin,
+.checkbox-all:checked ~ .box.wisteria,
+.checkbox-all:checked ~ .box.emerland,
+.checkbox-all:checked ~ .box.belizehole,
+.checkbox-all:checked ~ .box.sunflower,
+.checkbox-alizarin:checked ~ .box.alizarin,
+.checkbox-wisteria:checked ~ .box.wisteria,
+.checkbox-emerland:checked ~ .box.emerland,
+.checkbox-belizehole:checked ~ .box.belizehole,
+.checkbox-sunflower:checked ~ .box.sunflower {
+  opacity: 1;
+  height: 140px;
+  width: calc(22% - 28px);
+  padding: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  display: inline-block;
+  transform: scale(1);
+  border-width: 3px;
+}
+@media (max-width: 1199px) {
+  .checkbox-all:checked ~ .box.alizarin,
+  .checkbox-all:checked ~ .box.wisteria,
+  .checkbox-all:checked ~ .box.emerland,
+  .checkbox-all:checked ~ .box.belizehole,
+  .checkbox-all:checked ~ .box.sunflower,
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower {
+    min-width: calc(32% - 28px);
+  }
+}
+@media (max-width: 991px) {
+  .checkbox-all:checked ~ .box.alizarin,
+  .checkbox-all:checked ~ .box.wisteria,
+  .checkbox-all:checked ~ .box.emerland,
+  .checkbox-all:checked ~ .box.belizehole,
+  .checkbox-all:checked ~ .box.sunflower,
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower {
+    min-width: calc(50% - 28px);
+  }
+}
+@media (max-width: 575px) {
+  .checkbox-all:checked ~ .box.alizarin,
+  .checkbox-all:checked ~ .box.wisteria,
+  .checkbox-all:checked ~ .box.emerland,
+  .checkbox-all:checked ~ .box.belizehole,
+  .checkbox-all:checked ~ .box.sunflower,
+  .checkbox-alizarin:checked ~ .box.alizarin,
+  .checkbox-wisteria:checked ~ .box.wisteria,
+  .checkbox-emerland:checked ~ .box.emerland,
+  .checkbox-belizehole:checked ~ .box.belizehole,
+  .checkbox-sunflower:checked ~ .box.sunflower {
+    min-width: calc(100% - 28px);
+  }
+}
+
+.logo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  display: block;
+  z-index: 100;
+  transition: all 250ms linear;
+}
+.logo img {
+  height: 26px;
+  width: auto;
+  display: block;
+}
+@media (max-width: 1200px) {
+  .logo {
+    top: 20px;
+    right: 20px;
+  }
+  .logo img {
+    height: 24px;
+  }
+}
+.call {
+  height: 100%;
+  width: 100%;
+}

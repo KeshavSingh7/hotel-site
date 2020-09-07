@@ -147,6 +147,12 @@ body{
 .case-study-wrapper .case-study-name:nth-child(4) a:before {
 	background: linear-gradient(45deg, #3a3d98, #6f22b9);
 }
+.case-study-wrapper .case-study-name:nth-child(5) a:before {
+	background: linear-gradient(45deg, #0947db, #07d89d);
+}
+case-study-wrapper .case-study-name:nth-child(6) a:before {
+	background: linear-gradient(45deg, #0947db, #07d89d);
+}
 .case-study-wrapper .case-study-name.active a:before {
 	height: 100%;
 }
