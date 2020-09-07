@@ -88,10 +88,6 @@ $(document).ready(function () {
   $("#form").submit(function () {
     return flag;
   });
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6d582ad... new
 
   function scrollBanner() {
 	  $(document).on('scroll', function(){
@@ -153,17 +149,7 @@ $(document).ready(function () {
 		
 		
   });
-<<<<<<< HEAD
 });
 
 	
 	
-=======
-});
->>>>>>> a8b0b7f... page added
-=======
-});
-
-	
-	
->>>>>>> 6d582ad... new

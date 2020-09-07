@@ -3,28 +3,12 @@ html {
 }
 
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-  background: linear-gradient(
-    150deg,
-    rgba(0, 147, 233, 1),
-    rgba(128, 208, 199, 1)
-  );
->>>>>>> a8b0b7f... page added
-=======
-  
->>>>>>> 6d582ad... new
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6d582ad... new
 .moving-image {
   background: url(../img/slider/bg.jpg) repeat fixed;
   background-size: cover;
@@ -37,12 +21,6 @@ body {
   width:100%;
   opacity: 0.4;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> a8b0b7f... page added
-=======
->>>>>>> 6d582ad... new
 .container {
   margin-top: 50px;
   background: rgba(250, 250, 250, 0.3);
