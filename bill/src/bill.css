@@ -10,7 +10,8 @@ body{
 	font-size: 15px;
 	line-height: 1.7;
 	color: #fff;
-    background-image: url(../../img/slider/bg.jpg);
+    
+
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -22,6 +23,19 @@ body{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+.moving-image {
+    background: url(../../img/slider/bg.jpg) repeat fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 100%;
+    opacity: 0.4;
+  }
 [type="checkbox"]:checked,
 [type="checkbox"]:not(:checked){
   position: absolute;
@@ -407,3 +421,175 @@ h6{
     transition: transform 400ms 1350ms ease, opacity 400ms 1350ms ease;
   }
   
+  .dark-light:checked + label,
+.dark-light:not(:checked) + label{
+  position: fixed;
+  top: 25px;
+  right: 25px;
+  z-index: 20000;
+  display: block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 200ms linear;
+  box-shadow: 0 0 25px rgba(255,235,167,.45);
+}
+.dark-light:checked + label{
+  transform: rotate(360deg);
+}
+.dark-light:checked + label:after,
+.dark-light:not(:checked) + label:after{
+  position: absolute;
+  content: '';
+  top: 1px;
+  left: 1px;
+  overflow: hidden;
+  z-index: 2;
+  display: block;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  background-color: #102770;
+  background-image: url(../src/img/moon.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 200ms linear;
+  opacity: 0;
+}
+.dark-light:checked + label:after {
+  opacity: 1;
+}
+.dark-light:checked + label:before,
+.dark-light:not(:checked) + label:before{
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  z-index: 1;
+  display: block;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: #def9fe;
+  background-image: url(../src/img/sun.svg);
+  background-size: 22px 22px;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 200ms linear;
+}
+.dark-light:checked + label:before{
+  background-color: #000;
+}
+.light-back {
+  position: fixed;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  top: 0;
+  right: 0;
+   background-image: url(../../img/slider/bg.jpg); 
+  background-size: cover;
+  background-position: center;
+  background-color: #fff;
+  border-bottom-left-radius: 200%;
+  pointer-events: none;
+  transition: width 650ms ease, height 650ms ease, border-bottom-left-radius 250ms ease;
+}
+.dark-light:checked ~ .light-back {
+  width: 100%;
+  height: 100%;
+  border-bottom-left-radius: 0;
+  pointer-events: auto;
+  transition: width 650ms ease, height 650ms ease, border-bottom-left-radius 350ms 300ms ease;
+}
+.logo {
+	position: fixed;
+	top: 25px;
+	left: 25px;
+	display: block;
+	z-index: 1000;
+	transition: all 250ms linear;
+}
+.logo img {
+	height: 26px;
+	width: auto;
+	display: block;
+	transition: filter 250ms linear;
+}
+.dark-light:checked ~ .section-fluid-main .logo img {
+  filter: brightness(10%);
+  transition: filter 250ms 500ms linear;
+}
+.section{
+  background-color: #303037;
+  transition: background-color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section {
+  background-color: #fff;
+  transition: background-color 200ms 200ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section:before{
+  background-color: rgba(0,0,0,.05);
+  transition: background-color 200ms 200ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .date-btn:checked + label span:before,
+.dark-light:checked ~ .section-fluid-main .date-btn:not(:checked) + label span:before{
+  background-color: rgba(0,0,0,.05);
+  transition: background-color 200ms 200ms ease;
+}
+h3{
+  transition: color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main h3{
+  color: #444;
+  transition: color 200ms 200ms ease;
+}
+.color-yellow{
+  transition: color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .color-yellow{
+  color: #ffc70f;
+  transition: color 200ms 200ms ease;
+}
+.section-progress{
+  transition: background-color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section-progress{
+  background-color: #efefef;
+  transition: background-color 200ms 200ms ease;
+}
+.section-progress h6{
+  color: #222;
+  transition: color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section-progress h6 {
+  color: #fff;
+  transition: color 200ms 200ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .income-tooltip:after,
+.dark-light:checked ~ .section-fluid-main .expense-tooltip:after{
+  border-bottom: 10px solid #303037;
+  transition: border-bottom 200ms 200ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .income-tooltip:before,
+.dark-light:checked ~ .section-fluid-main .expense-tooltip:before {
+  background-color: #303037;
+  transition: background-color 200ms 200ms ease;
+}
+.section-progress .income p{
+  transition: color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section-progress .income p {
+  color: #7a95ec;
+  transition: color 200ms 200ms ease;
+}
+.section-progress .expense p{
+  transition: color 200ms 100ms ease;
+}
+.dark-light:checked ~ .section-fluid-main .section-progress .expense p {
+  color: #ffdf74;
+  transition: color 200ms 200ms ease;
+}
