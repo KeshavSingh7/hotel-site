@@ -75,8 +75,7 @@
 	transform:scale(1.4) translateX(-35%) translateY(-35%);
 	border:none
 }
-.cursor2{
-}
+
 .cursor2.hover{
 	background: rgba(255,255,255,0.1);
 }
@@ -426,38 +425,30 @@ html {
   color: white;
 }
 
-.remove {
+.remove, .add{
   height: 38px;
   width: 38px;
-  padding: 10px;
+  padding: 4px;
   align-items: center;
   color: white;
   cursor: pointer;
   position: absolute;
-  background: red;
-  top: 32px;
-  right: 53px;
 }
 
-.remove i {
-  font-size: 20px;
+.remove {
+  background: red;
+  top: 44px;
+  right: 58px;
 }
 
 .add {
-  height: 38px;
-  width: 38px;
-  padding: 10px;
-  align-items: center;
-  color: white;
-  cursor: pointer;
-  position: absolute;
   background: green;
-  top: 32px;
-  right: 15px;
+  top: 44px;
+  right: 20px;
   border-radius: 0 4px 4px 0;
 }
 
-.add i {
+.remove i, .add i {
   font-size: 20px;
 }
 
