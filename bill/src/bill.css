@@ -593,3 +593,56 @@ h3{
   color: #ffdf74;
   transition: color 200ms 200ms ease;
 }
+@media (max-width: 767px) {
+    h3{
+      font-size: 36px;
+    }
+    h6{
+      font-size: 16px;
+    }
+    .section-col-1{
+      padding: 10px;
+    }
+    .section-col-2{
+      padding: 10px;
+    }
+    .date-btn:checked + label,
+    .date-btn:not(:checked) + label{
+      padding: 10px;
+    }
+    .section-fluid-main{
+      padding-top: 100px;
+      padding-bottom: 140px;
+    }
+  }
+  @media (max-width: 575px) {
+    h3{
+      font-size: 30px;
+    }
+    .section{
+      padding: 15px;
+    }
+    .section-col-1{
+      padding: 5px;
+    }
+    .section-col-2{
+      padding: 5px;
+    }
+    .date-btn:checked + label,
+    .date-btn:not(:checked) + label{
+      padding: 5px;
+    }
+  }
+  @media (max-width: 450px) {
+    .section-col-2{
+      -ms-flex: 0 0 100%;
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+    .date-btn:checked + label,
+    .date-btn:not(:checked) + label{
+      -ms-flex: 0 0 50%;
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
