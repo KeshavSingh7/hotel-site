@@ -10,7 +10,7 @@ body{
 	font-size: 15px;
 	line-height: 1.7;
 	color: #fff;
-	background-image: url('');
+    background-image: url(../../img/slider/bg.jpg);
   background-size: cover;
   background-position: center;
   margin: 0;
@@ -213,3 +213,197 @@ h6{
   margin: 0;
   border-radius: 100px/3px;
 }
+.section-progress{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #222;
+    border-radius: 2px;
+  }
+  .section-progress h6{
+    color: #222;
+  }
+  .section-progress .income p{
+    color: #102770;
+  }
+  .section-progress .expense p{
+    color: #dba800;
+  }
+  .section-progress p{
+    margin-bottom: 5px;
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  .income{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    background: linear-gradient(90deg, #102770 0%, #3760e2 95%, #fff7da 100%);
+  }
+  .expense{
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 65%;
+    z-index: 1;
+    width: 0;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    background: linear-gradient(90deg, #fff7da, #ffd341);
+  }
+  .income-tooltip,
+  .expense-tooltip{
+    position: absolute;
+    display: block;
+    min-width: 120px;
+    top: 15px;
+    left: 50%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.2);
+    transform: translateX(-50%) rotate(-25deg); 
+    transform-origin: center top;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .income-tooltip:before,
+  .expense-tooltip:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border-radius: 4px;
+    z-index: -1;
+    background-color: #fff;
+    transition: background-color 200ms 100ms ease;
+  }
+  .income-tooltip:after,
+  .expense-tooltip:after{
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    content: '';
+    z-index: -1;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent; 
+    border-bottom: 10px solid #fff;
+    transition: border-bottom 200ms 100ms ease;
+  }
+  .expense-tooltip{
+    transition: transform 200ms ease, opacity 200ms ease
+  }
+  .expense{
+    transition: width 200ms 200ms ease;
+  }
+  .income-tooltip{
+    transition: transform 200ms 400ms ease, opacity 200ms 400ms ease;
+  }
+  .income{
+    transition: width 250ms 400ms ease;
+  }
+  
+  #date-1:checked ~ .section-col-1 .income.days-30{
+    width: 65%;
+    transition: width 350ms 700ms ease;
+  }
+  #date-1:checked ~ .section-col-1 .expense.days-30{
+    width: 35%;
+    transition: width 300ms 1050ms ease;
+  }
+  #date-1:checked ~ .section-col-1 .income.days-30 .income-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1050ms ease, opacity 400ms 1050ms ease;
+  }
+  #date-1:checked ~ .section-col-1 .expense.days-30 .expense-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1350ms ease, opacity 400ms 1350ms ease;
+  }
+  #date-2:checked ~ .section-col-1 .income.days-90{
+    width: 55%;
+    transition: width 350ms 700ms ease;
+  }
+  .expense.days-90{
+    left: 55%;
+  }
+  #date-2:checked ~ .section-col-1 .expense.days-90{
+    width: 45%;
+    transition: width 300ms 1050ms ease;
+  }
+  #date-2:checked ~ .section-col-1 .income.days-90 .income-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1050ms ease, opacity 400ms 1050ms ease;
+  }
+  #date-2:checked ~ .section-col-1 .expense.days-90 .expense-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1350ms ease, opacity 400ms 1350ms ease;
+  }
+  
+  #date-3:checked ~ .section-col-1 .income.days-180{
+    width: 75%;
+    transition: width 350ms 700ms ease;
+  }
+  .expense.days-180{
+    left: 75%;
+  }
+  #date-3:checked ~ .section-col-1 .expense.days-180{
+    width: 25%;
+    transition: width 300ms 1050ms ease;
+  }
+  #date-3:checked ~ .section-col-1 .income.days-180 .income-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1050ms ease, opacity 400ms 1050ms ease;
+  }
+  #date-3:checked ~ .section-col-1 .expense.days-180 .expense-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1350ms ease, opacity 400ms 1350ms ease;
+  }
+  
+  #date-4:checked ~ .section-col-1 .income.days-365{
+    width: 72%;
+    transition: width 350ms 700ms ease;
+  }
+  .expense.days-365{
+    left: 72%;
+  }
+  #date-4:checked ~ .section-col-1 .expense.days-365{
+    width: 28%;
+    transition: width 300ms 1050ms ease;
+  }
+  #date-4:checked ~ .section-col-1 .income.days-365 .income-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1050ms ease, opacity 400ms 1050ms ease;
+  }
+  #date-4:checked ~ .section-col-1 .expense.days-365 .expense-tooltip{
+    transform: translateX(-50%) rotate(0deg);
+    opacity: 1;
+    pointer-events: auto;
+    transition: transform 400ms 1350ms ease, opacity 400ms 1350ms ease;
+  }
+  
