@@ -22,3 +22,122 @@ body{
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+[type="checkbox"]:checked,
+[type="checkbox"]:not(:checked){
+  position: absolute;
+  visibility: hidden;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+  letter-spacing: 0.4px;
+	font-size: 16px;
+	line-height: 1.55;
+	color: #fff;
+  margin: 0;
+  margin-bottom: 15px;
+}
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+}
+h6{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 1;
+  color: #fff;
+  margin: 0;
+}
+.font-weight-500{
+  font-weight: 500;
+}
+.color-yellow{
+  color: #ffdf74;
+}
+.color-blue{
+  color: #7a95ec;
+}
+.section-fluid-main{
+  position: relative;
+  display: block;
+  width: calc(100% - 40px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 700px;
+  padding-top: 50px;
+  padding-bottom: 90px;
+  -ms-flex-item-align: center;
+  align-self: center;
+  z-index: 3;
+}
+.section-row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-col-1{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  padding: 15px;
+}
+.section-col-2{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 15px;
+}
+.section{
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 30px;
+  background-color: #303037;
+  border-radius: 200px/3px;
+}
+.section-col-1 .section{
+  border-radius: 400px/3px;
+}
+.section:before{
+  position: absolute;
+  content: '';
+  top: -5px;
+  left: -5px;
+  z-index: -1;
+  width: calc(100% + 10px);
+  height: calc(100% + 10px);
+  display: block;
+  overflow: hidden;
+  background-color: rgba(0,0,0,.25);
+  border-radius: 200px/3px;
+  box-shadow: 0 8px 35px 0 rgba(0, 0, 0, 0.2);
+  transition: background-color 200ms 100ms ease;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+  position: absolute;
+  visibility: hidden;
+}
+.date-btn:checked + label,
+.date-btn:not(:checked) + label{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  padding: 15px;
+}
