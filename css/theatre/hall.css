@@ -16,9 +16,8 @@ a:hover {
   text-decoration: none;
 }
 .moving-image {
-  background: url(../../img/slider/bg.jpg) repeat fixed;
+  background: url(../../img/slider/bg.jpg) repeat scroll;
   background-size: cover;
-  background-attachment: fixed;
   position: absolute;
   top: 0;
   left: 0;
@@ -30,6 +29,7 @@ a:hover {
 }
 
 .section {
+  top:25px;
   position: relative;
   width: 100%;
   display: block;
