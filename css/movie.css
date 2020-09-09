@@ -177,7 +177,7 @@ figure.vimeo a:before, figure.youtube a:before {
 }
 .link-to-portfolio {
     position: fixed;
-  top: 30px;
+  top: 90px;
   right: 30px;
   z-index: 20;
   cursor: pointer;
