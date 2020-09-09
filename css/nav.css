@@ -60,7 +60,7 @@
 	height: 2px;
 	width: 30px;
 	display: block;
-	background-color: #fff;
+	background-color: rgb(9, 9, 15);
 	margin-bottom: 7px;
 	cursor: pointer;
 	-webkit-transition: background-color .5s ease, -webkit-transform .2s ease;
