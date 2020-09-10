@@ -108,7 +108,7 @@ body{
 	padding: 0;
 	margin-top: 6px;
 	margin-bottom: 6px;
-	font-size: 17px;
+	font-size: 15px;
 	font-weight: 700;
 	line-height: 1.15;
 	letter-spacing: 1px;
@@ -151,6 +151,9 @@ body{
 	background: linear-gradient(45deg, #0947db, #07d89d);
 }
 .case-study-wrapper .case-study-name:nth-child(6) a:before {
+	background: linear-gradient(45deg, #0947db, #07d89d);
+}
+.case-study-wrapper .case-study-name:nth-child(7) a:before {
 	background: linear-gradient(45deg, #0947db, #07d89d);
 }
 .case-study-wrapper .case-study-name:nth-child(7) a:before {
