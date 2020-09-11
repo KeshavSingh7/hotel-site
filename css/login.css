@@ -8,7 +8,6 @@ body{
 	color: #c4c3ca;
 	background-color: #1f2029;
   overflow-x: hidden;
-  background: url(../img/slider/bg.jpg) repeat fixed;
 }
 .moving-image {
   background: url(../img/slider/bg.jpg) repeat fixed;
