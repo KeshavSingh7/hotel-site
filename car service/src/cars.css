@@ -15,3 +15,70 @@ body{
   padding: 0;
   overflow-x: none;
 }
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #fff;
+  margin: 0;
+}
+.section-fluid-main{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: calc(100% - 40px);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1140px;
+  padding: 100px 0;
+}
+.section-row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.section-row:hover .section-col{
+  opacity: 0.1;
+}
+.section-col{
+  position: relative;
+  width: 100%;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  transition: opacity 250ms linear;
+}
+.section-row .section-col:hover{
+  opacity: 1;
+}
+.section{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    padding: 15px;
+  }
+  .section-in{
+    position: relative;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  .section-in img{
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: transform 250ms linear;
+  }
+  .section-col:hover .section-in img{
+    transform: scale(1.1) rotate(-3deg);
+  }
