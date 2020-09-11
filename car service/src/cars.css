@@ -76,7 +76,7 @@ p{
   .section-in img{
     display: block;
     width: 100%;
-    height: auto;
+    height: 400px;
     transition: transform 250ms linear;
   }
   .section-col:hover .section-in img{
