@@ -10,12 +10,14 @@ body{
 	font-size: 15px;
 	line-height: 1.7;
 	color: #fff;
-	background-color: #1f2029;
   margin: 0;
   padding: 0;
   overflow-x: none;
+  background: url(../../img/slider/bg.jpg) repeat fixed;
+
+  
 }
-p{
+.p{
 	font-family: 'Poppins', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
