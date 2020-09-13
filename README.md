@@ -18,14 +18,14 @@
 <img src="https://i.ibb.co/V9BrHWY/index.png">
  <h2><a href="https://drive.google.com/drive/folders/1HdduNelSgbAGXoL5Q0yg3dAmZ90Zl1qq?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary>
+  <details id="bill"><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/4R9tWVp/bill.png">
 <h2><a href="https://drive.google.com/drive/folders/1gUJ9mVvtSE7AXf3gewb8Ws3q61DrGR6I?usp=sharing">Visit Code</a></h2>
 </details>
   <details id="web"><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/WzN3SfW/web.png">
 <h2><a href="https://drive.google.com/drive/folders/1xIgbmQBDi7cyqIpgPVx4Pvb5LZVQL0Zf?usp=sharing">Visit Code</a></h2></details>
-  <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary>
+  <details id="check"><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/txdZqSN/1.png">
  <h1>Card Pay</h1>
 <img src="https://i.ibb.co/k50Ppnp/2.png">
@@ -87,14 +87,18 @@
 ---
 
 ### Pages Degine by :computer:
-
+<br>
 <details>
  <summary><Strong>:frowning_man: <strong>Madhav Narayan <a href="https://github.com/Madhav2108">Visit:man_technologist:</a></strong></Strong></summary>
- <strong>:page_with_curl: Entry Page :white_heart: </strong><a href="entry">Visit :printer:</a>
+ <br>
+ <strong>:page_with_curl: Entry Page :white_heart: </strong><a href="#entry">Visit :printer:</a>
+ <strong>:page_with_curl: Bill Status Page :white_heart: </strong><a href="#bill">Visit :printer:</a>
 </details>
   <details>
  <summary><strong>:frowning_man: <strong>Keshav <a href="https://github.com/KeshavSingh7">Visit:man_technologist:</a></strong></strong></summary>
- <strong>:page_with_curl: Website :white_heart: </strong><a href="web">Visit :printer:</a>
+ <br>
+ <strong>:page_with_curl: Website :white_heart: </strong><a href="#web">Visit :printer:</a>
+ <strong>:page_with_curl: Checkout Page :white_heart: </strong><a href="#check">Visit :printer:</a>
 </details> 
   
 ---
