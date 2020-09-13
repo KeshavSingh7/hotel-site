@@ -42,4 +42,4 @@
 #####  :black_circle: Theatre set :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
 #####  :black_circle: Car Service Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/199kSPwoPIjuY6qYmXdH0vhjp4zlgrvxa?usp=sharing):heavy_check_mark:
 ---
-## Hotel Templete is Made with :black_heart:
+## Hotel Templete is Made with :black_heart: By [Visit Contributors](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
