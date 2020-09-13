@@ -15,12 +15,15 @@
  </summary>
  
   <details><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
-<img src="">
+<img src="https://i.ibb.co/V9BrHWY/index.png">
 </details>
   <details><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary></details>
-  <details><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/WzN3SfW/web.png"></details>
   <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary></details>
-  <details><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/rxnm4Wm/res.png">
+</details>
   <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary>
  <img src="https://i.ibb.co/5rYJ7Vn/log.png">
