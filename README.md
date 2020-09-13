@@ -17,19 +17,36 @@
   <details><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/V9BrHWY/index.png">
 </details>
-  <details><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/4R9tWVp/bill.png"></details>
   <details><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/WzN3SfW/web.png"></details>
-  <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/txdZqSN/1.png">
+ <h1>Card Pay</h1>
+<img src="https://i.ibb.co/k50Ppnp/2.png">
+</details>
   <details><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/rxnm4Wm/res.png">
 </details>
-  <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/4jQfTDS/room.png"></details>
   <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary>
  <img src="https://i.ibb.co/5rYJ7Vn/log.png">
  </details>
-  <details><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary></details>
-  <details><summary><strong>:black_medium_square: Car Service Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary>
+ <h1>Ticket counter</h1>
+ <img src="https://i.ibb.co/jLVv3Q7/11.png">
+ <h1>Card payment</h1>
+ <img src="https://i.ibb.co/3FSb5QG/12.png">
+ <h1>Hall</h1>
+ <img src="https://i.ibb.co/HgdJMc1/13.png">
+ <h1>Screen</h1>
+ <img src="https://i.ibb.co/xXjn8q1/14.png">
+</details>
+  <details><summary><strong>:black_medium_square: Car Service Page :clapper:</strong></summary>
+<img src="https://i.ibb.co/p3zLDb5/15.png">
+</details>
   
   
 </details>
