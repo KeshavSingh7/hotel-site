@@ -22,7 +22,7 @@
   <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary></details>
-  
+  <details><summary><strong>:black_medium_square: Car Service Page :clapper:</strong></summary></details>
   
   
 </details>
@@ -39,6 +39,7 @@
 #####  :black_circle: Restaurant :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1kxirWWNKDlld4CBRta1_Aa7rOWaJYOaL?usp=sharing):heavy_check_mark:
 #####  :black_circle: Room :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/13Mg_L9LF_6Aajr05R8M7w5pmSaHKeOnO?usp=sharing):heavy_check_mark:
 #####  :black_circle: Login Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1uR0BlAVmDUuVvLB45FkN_0MnnEZGz7lL?usp=sharing):heavy_check_mark:
-#####  :black_circle: Theatre se :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
+#####  :black_circle: Theatre set :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
+#####  :black_circle: Car Service Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/199kSPwoPIjuY6qYmXdH0vhjp4zlgrvxa?usp=sharing):heavy_check_mark:
 ---
 ## Hotel Templete is Made with :black_heart:
