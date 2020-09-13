@@ -81,7 +81,7 @@
 ---
 ###  Links For Visit Template & Download  :computer: :computer_mouse:
 
-##### :small_blue_diamond: Visit Template :black_heart: [Click :tv:](https://madhav2108.github.io/hotelSite/)
+##### :small_blue_diamond: Visit Template :black_heart: [Click :tv:](https://madhav2108.github.io/Hotel-Template/)
 ##### :small_blue_diamond: Download Template :black_heart: [Click :label:](https://codeload.github.com/Madhav2108/Hotel-Templete/zip/master)
 
 ---
