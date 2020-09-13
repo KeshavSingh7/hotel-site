@@ -83,6 +83,22 @@
 
 ##### :small_blue_diamond: Visit Templet :black_heart: [Click :tv:](https://madhav2108.github.io/hotelSite/)
 ##### :small_blue_diamond: Download Templet :black_heart: [Click :label:](https://codeload.github.com/Madhav2108/Hotel-Templete/zip/master)
+
 ---
-<a href="#top">Click For Page up</a>
+
+### Pages Degine by :computer:
+
+<details>
+ <summary><Strong>:frowning_man: <strong>Madhav Narayan <a href="https://github.com/Madhav2108">Visit:man_technologist:</a></strong></Strong></summary>
+</details>
+  <details>
+ <summary><strong>:frowning_man: <strong>Keshav <a href="https://github.com/KeshavSingh7">Visit:man_technologist:</a></strong></strong></summary>
+</details> 
+  
+---
+  
+<strong><a href="#top" style="color:black;">Move To Top :point_up:</a></strong>
+  
+---
+  
 ## Hotel Templete is Made with :black_heart: By [Visit Contributors](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
