@@ -14,13 +14,17 @@
  <strong>TEMPLETE CONTAIN MANY PAGES AS :point_down:</strong>
  </summary>
  
-  <details><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
+<img src="">
+</details>
   <details><summary><strong>:black_medium_square: Bill Status Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary></details>
-  <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary></details>
+  <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary>
+ <img src="https://i.ibb.co/5rYJ7Vn/log.png">
+ </details>
   <details><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary></details>
   <details><summary><strong>:black_medium_square: Car Service Page :clapper:</strong></summary></details>
   
