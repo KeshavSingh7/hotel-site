@@ -31,19 +31,19 @@
 <img src="https://i.ibb.co/k50Ppnp/2.png">
  <h2><a href="https://drive.google.com/drive/folders/1WR7T9Yc12z14-NY1ZDi-hrp20ThsJzzR?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary>
+  <details id="res"><summary><strong>:black_medium_square: Restaurant Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/rxnm4Wm/res.png">
  <h2><a href="https://drive.google.com/drive/folders/1kxirWWNKDlld4CBRta1_Aa7rOWaJYOaL?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary>
+  <details id="room"><summary><strong>:black_medium_square: Room Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/4jQfTDS/room.png">
 <h2><a href="https://drive.google.com/drive/folders/13Mg_L9LF_6Aajr05R8M7w5pmSaHKeOnO?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary>
+  <details id="log"><summary><strong>:black_medium_square: Login Page :clapper:</strong></summary>
  <img src="https://i.ibb.co/5rYJ7Vn/log.png">
  <h2><a href="https://drive.google.com/drive/folders/1uR0BlAVmDUuVvLB45FkN_0MnnEZGz7lL?usp=sharing">Visit Code</a></h2>
  </details>
-  <details><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary>
+  <details id="the"><summary><strong>:black_medium_square: Theatre set :clapper:</strong></summary>
  <h1>Ticket counter</h1>
  <img src="https://i.ibb.co/jLVv3Q7/11.png">
  <h1>Card payment</h1>
@@ -54,7 +54,7 @@
  <img src="https://i.ibb.co/xXjn8q1/14.png">
  <h2><a href="https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Car Service Page :clapper:</strong></summary>
+  <details><summary id="car"><strong>:black_medium_square: Car Service Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/p3zLDb5/15.png">
  <h1>Booking Info</h1>
  <img src="https://i.ibb.co/MMv8xnJ/19.png">
@@ -91,14 +91,20 @@
 <details>
  <summary><Strong>:frowning_man: <strong>Madhav Narayan <a href="https://github.com/Madhav2108">Visit:man_technologist:</a></strong></Strong></summary>
  <br>
- <strong>:page_with_curl: Entry Page :white_heart: </strong><a href="#entry">Visit :printer:</a>
- <strong>:page_with_curl: Bill Status Page :white_heart: </strong><a href="#bill">Visit :printer:</a>
+ <strong>:page_with_curl: Entry Page :white_heart: </strong><a href="#entry">Visit :printer:</a><br>
+ <strong>:page_with_curl: Bill Status Page :white_heart: </strong><a href="#bill">Visit :printer:</a><br>
+ <strong>:page_with_curl: Room Page :white_heart: </strong><a href="#room">Visit :printer:</a><br>
+ <strong>:page_with_curl: Login Page :white_heart: </strong><a href="#log">Visit :printer:</a><br>
+ <strong>:page_with_curl: Theatre set :white_heart: </strong><a href="#the">Visit :printer:</a><br>
+ <strong>:page_with_curl: Car Service Page :white_heart: </strong><a href="#car">Visit :printer:</a><br>
 </details>
   <details>
  <summary><strong>:frowning_man: <strong>Keshav <a href="https://github.com/KeshavSingh7">Visit:man_technologist:</a></strong></strong></summary>
  <br>
- <strong>:page_with_curl: Website :white_heart: </strong><a href="#web">Visit :printer:</a>
- <strong>:page_with_curl: Checkout Page :white_heart: </strong><a href="#check">Visit :printer:</a>
+ <strong>:page_with_curl: Website :white_heart: </strong><a href="#web">Visit :printer:</a><br>
+ <strong>:page_with_curl: Checkout Page :white_heart: </strong><a href="#check">Visit :printer:</a><br>
+ <strong>:page_with_curl: Restaurant :white_heart: </strong><a href="#res">Visit :printer:</a><br>
+  <strong>:page_with_curl: Booking Info Page :white_heart: </strong><a href="#car">Visit :printer:</a><br>
 </details> 
   
 ---
