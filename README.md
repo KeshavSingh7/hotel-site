@@ -1,4 +1,4 @@
-# HOTEL-TEMPLETE
+# HOTEL-TEMPLATE
 ##  _Welcome_<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
 
@@ -11,7 +11,7 @@
 
 <details open id="top">
  <summary>
- <strong>TEMPLETE CONTAIN MANY PAGES AS :point_down:</strong>
+ <strong>TEMPLATE CONTAIN MANY PAGES AS :point_down:</strong>
  </summary>
  
   <details id="entry"><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
@@ -79,10 +79,10 @@
 #####  :black_circle: Theatre set :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
 #####  :black_circle: Car Service Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/199kSPwoPIjuY6qYmXdH0vhjp4zlgrvxa?usp=sharing):heavy_check_mark:
 ---
-###  Links For Visit Templet & Download  :computer: :computer_mouse:
+###  Links For Visit Template & Download  :computer: :computer_mouse:
 
-##### :small_blue_diamond: Visit Templet :black_heart: [Click :tv:](https://madhav2108.github.io/hotelSite/)
-##### :small_blue_diamond: Download Templet :black_heart: [Click :label:](https://codeload.github.com/Madhav2108/Hotel-Templete/zip/master)
+##### :small_blue_diamond: Visit Template :black_heart: [Click :tv:](https://madhav2108.github.io/hotelSite/)
+##### :small_blue_diamond: Download Template :black_heart: [Click :label:](https://codeload.github.com/Madhav2108/Hotel-Templete/zip/master)
 
 ---
 
@@ -113,4 +113,4 @@
   
 ---
   
-## Hotel Templete is Made with :black_heart: By [Visit Team](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
+## Hotel Template is Made with :black_heart: By [Visit Team](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
