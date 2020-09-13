@@ -14,7 +14,7 @@
  <strong>TEMPLETE CONTAIN MANY PAGES AS :point_down:</strong>
  </summary>
  
-  <details><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
+  <details id="entry"><summary><strong>:black_medium_square: Entry Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/V9BrHWY/index.png">
  <h2><a href="https://drive.google.com/drive/folders/1HdduNelSgbAGXoL5Q0yg3dAmZ90Zl1qq?usp=sharing">Visit Code</a></h2>
 </details>
@@ -22,7 +22,7 @@
 <img src="https://i.ibb.co/4R9tWVp/bill.png">
 <h2><a href="https://drive.google.com/drive/folders/1gUJ9mVvtSE7AXf3gewb8Ws3q61DrGR6I?usp=sharing">Visit Code</a></h2>
 </details>
-  <details><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary>
+  <details id="web"><summary><strong>:black_medium_square: Website Page :clapper:</strong></summary>
 <img src="https://i.ibb.co/WzN3SfW/web.png">
 <h2><a href="https://drive.google.com/drive/folders/1xIgbmQBDi7cyqIpgPVx4Pvb5LZVQL0Zf?usp=sharing">Visit Code</a></h2></details>
   <details><summary><strong>:black_medium_square: Checkout Page :clapper:</strong></summary>
@@ -90,9 +90,11 @@
 
 <details>
  <summary><Strong>:frowning_man: <strong>Madhav Narayan <a href="https://github.com/Madhav2108">Visit:man_technologist:</a></strong></Strong></summary>
+ <strong>:page_with_curl: Entry Page :white_heart: </strong><a href="entry">Visit :printer:</a>
 </details>
   <details>
  <summary><strong>:frowning_man: <strong>Keshav <a href="https://github.com/KeshavSingh7">Visit:man_technologist:</a></strong></strong></summary>
+ <strong>:page_with_curl: Website :white_heart: </strong><a href="web">Visit :printer:</a>
 </details> 
   
 ---
@@ -101,4 +103,4 @@
   
 ---
   
-## Hotel Templete is Made with :black_heart: By [Visit Contributors](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
+## Hotel Templete is Made with :black_heart: By [Visit Team](https://github.com/KeshavSingh7/hotelSite/graphs/contributors)
