@@ -1,13 +1,8 @@
 # HOTEL-TEMPLATE
-##  _Welcome_<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
+## _Welcome_<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px">
 
-
-----
-
-
-
-
+---
 
 <details open id="top">
  <summary>
@@ -64,29 +59,40 @@
   
 </details>
 
+---
 
+### Links For Download Pages :computer: :computer_mouse:
+
+##### :black_circle: Entry Page :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1HdduNelSgbAGXoL5Q0yg3dAmZ90Zl1qq?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Bill Status :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1gUJ9mVvtSE7AXf3gewb8Ws3q61DrGR6I?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Website :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1xIgbmQBDi7cyqIpgPVx4Pvb5LZVQL0Zf?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Checkout :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1WR7T9Yc12z14-NY1ZDi-hrp20ThsJzzR?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Restaurant :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1kxirWWNKDlld4CBRta1_Aa7rOWaJYOaL?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Room :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/13Mg_L9LF_6Aajr05R8M7w5pmSaHKeOnO?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Login Page :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1uR0BlAVmDUuVvLB45FkN_0MnnEZGz7lL?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Theatre set :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
+
+##### :black_circle: Car Service Page :white_heart: [DOWNLOAD PAGE](https://drive.google.com/drive/folders/199kSPwoPIjuY6qYmXdH0vhjp4zlgrvxa?usp=sharing):heavy_check_mark:
 
 ---
-###  Links For Download Pages  :computer: :computer_mouse:
 
-#####  :black_circle: Entry Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1HdduNelSgbAGXoL5Q0yg3dAmZ90Zl1qq?usp=sharing):heavy_check_mark:
-#####  :black_circle: Bill Status :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1gUJ9mVvtSE7AXf3gewb8Ws3q61DrGR6I?usp=sharing):heavy_check_mark:
-#####  :black_circle: Website :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1xIgbmQBDi7cyqIpgPVx4Pvb5LZVQL0Zf?usp=sharing):heavy_check_mark:
-#####  :black_circle: Checkout :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1WR7T9Yc12z14-NY1ZDi-hrp20ThsJzzR?usp=sharing):heavy_check_mark:
-#####  :black_circle: Restaurant :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1kxirWWNKDlld4CBRta1_Aa7rOWaJYOaL?usp=sharing):heavy_check_mark:
-#####  :black_circle: Room :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/13Mg_L9LF_6Aajr05R8M7w5pmSaHKeOnO?usp=sharing):heavy_check_mark:
-#####  :black_circle: Login Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1uR0BlAVmDUuVvLB45FkN_0MnnEZGz7lL?usp=sharing):heavy_check_mark:
-#####  :black_circle: Theatre set :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/1CgA4jM7y9MPNccVhvH18R4UcsdaNMMOH?usp=sharing):heavy_check_mark:
-#####  :black_circle: Car Service Page :white_heart:  [DOWNLOAD PAGE](https://drive.google.com/drive/folders/199kSPwoPIjuY6qYmXdH0vhjp4zlgrvxa?usp=sharing):heavy_check_mark:
----
-###  Links For Visit Template & Download  :computer: :computer_mouse:
+### Links For Visit Template & Download :computer: :computer_mouse:
 
-##### :small_blue_diamond: Visit Template :black_heart: [Click :tv:](https://madhav2108.github.io/Hotel-Template/)
-##### :small_blue_diamond: Download Template :black_heart: [Click :label:](https://codeload.github.com/Madhav2108/Hotel-Templete/zip/master)
+##### :small_blue_diamond: Visit Template :black_heart: [Click :tv:](https://keshavsingh7.github.io/hotelSite/)
+
+##### :small_blue_diamond: Download Template :black_heart: [Click :label:](https://github.com/KeshavSingh7/hotelSite/archive/master.zip)
 
 ---
 
 ### Pages Degine by :computer:
+
 <br>
 <details>
  <summary><Strong>:frowning_man: <strong>Madhav Narayan <a href="https://github.com/Madhav2108">Visit:man_technologist:</a></strong></Strong></summary>
